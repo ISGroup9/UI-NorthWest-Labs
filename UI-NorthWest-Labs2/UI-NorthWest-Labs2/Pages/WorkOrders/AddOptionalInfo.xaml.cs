@@ -12,23 +12,25 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using UI_NorthWest_Labs2.Pages.WorkOrders.Confirmations;
 
 namespace UI_NorthWest_Labs2.Pages.WorkOrders
 {
     /// <summary>
-    /// Interaction logic for RecievedWorkOrder.xaml
+    /// Interaction logic for AddOptionalInfo.xaml
     /// </summary>
-    public partial class RecievedWorkOrder : UserControl
+    public partial class AddOptionalInfo : UserControl
     {
-        public RecievedWorkOrder()
+        public AddOptionalInfo()
         {
             InitializeComponent();
         }
 
         private void BeginBtn_Click(object sender, RoutedEventArgs e)
         {
-            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/AddOptionalInfo.xaml", this);
-            
+            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/ViewAll.xaml", this);
+            WorkOrderUpdatedDialog d = new WorkOrderUpdatedDialog();
+            d.ShowDialog();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstFloor.ModernUI.Windows.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,22 +14,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI_NorthWest_Labs2.Pages.WorkOrders
+namespace UI_NorthWest_Labs2.Pages.WorkOrders.Confirmations
 {
     /// <summary>
-    /// Interaction logic for RecievedWorkOrder.xaml
+    /// Interaction logic for WorkOrderUpdatedDialog.xaml
     /// </summary>
-    public partial class RecievedWorkOrder : UserControl
+    public partial class WorkOrderUpdatedDialog : ModernDialog
     {
-        public RecievedWorkOrder()
+        public WorkOrderUpdatedDialog()
         {
             InitializeComponent();
-        }
 
-        private void BeginBtn_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/AddOptionalInfo.xaml", this);
-            
+            // define the dialog buttons
+            this.Buttons = new Button[] { this.OkButton, };
         }
     }
 }

@@ -237,6 +237,12 @@
     <Compile Include="Pages\Tests\TestInfo.xaml.cs">
       <DependentUpon>TestInfo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\WorkOrders\AddOptionalInfo.xaml.cs">
+      <DependentUpon>AddOptionalInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WorkOrders\Confirmations\WorkOrderUpdatedDialog.xaml.cs">
+      <DependentUpon>WorkOrderUpdatedDialog.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\WorkOrders\RecievedWorkOrder.xaml.cs">
       <DependentUpon>RecievedWorkOrder.xaml</DependentUpon>
     </Compile>
@@ -263,6 +269,14 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Page Include="Pages\Tests\TestInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WorkOrders\AddOptionalInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WorkOrders\Confirmations\WorkOrderUpdatedDialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -32,7 +32,7 @@ namespace UI_NorthWest_Labs2.Pages.WorkOrders
 
         private void Begin_Click(object sender, RoutedEventArgs e)
         {
-            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/ReceivedWorkOrder.xaml", MainWindow.frame);
+            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/RecievedWorkOrder.xaml", MainWindow.frame);
         }
 
   
