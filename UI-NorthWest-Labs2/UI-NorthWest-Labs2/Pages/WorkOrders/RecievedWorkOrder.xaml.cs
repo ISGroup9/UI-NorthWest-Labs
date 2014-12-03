@@ -27,7 +27,8 @@ namespace UI_NorthWest_Labs2.Pages.WorkOrders
 
         private void BeginBtn_Click(object sender, RoutedEventArgs e)
         {
-
+            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/AddOptionalInfo.xaml", this);
+            
         }
     }
 }
