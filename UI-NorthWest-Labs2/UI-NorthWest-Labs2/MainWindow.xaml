@@ -55,6 +55,6 @@
     <mui:ModernWindow.TitleLinks>
         <mui:Link DisplayName="settings" Source="/Pages/SettingsPage.xaml" />
         <mui:Link DisplayName="help" Source="http://lmgtfy.com/?q=you+need+help" />
-        <mui:Link DisplayName="logged in as: Joe Waters"/>
+        <mui:Link DisplayName="logged in as: Jill Waters"/>
     </mui:ModernWindow.TitleLinks>
 </mui:ModernWindow>
