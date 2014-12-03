@@ -18,9 +18,9 @@ namespace UI_NorthWest_Labs2.Pages.Customers
     /// <summary>
     /// Interaction logic for CustomerLookup.xaml
     /// </summary>
-    public partial class NewCustomer : UserControl
+    public partial class CustomerLookup : UserControl
     {
-        public NewCustomer()
+        public CustomerLookup()
         {
             InitializeComponent();
         }

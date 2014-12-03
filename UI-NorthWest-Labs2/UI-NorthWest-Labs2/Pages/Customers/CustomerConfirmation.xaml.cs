@@ -16,15 +16,13 @@ using System.Windows.Shapes;
 namespace UI_NorthWest_Labs2.Pages.Customers
 {
     /// <summary>
-    /// Interaction logic for CustomerLookup.xaml
+    /// Interaction logic for BasicPage1.xaml
     /// </summary>
-    public partial class NewCustomer : UserControl
+    public partial class BasicPage1 : UserControl
     {
-        public NewCustomer()
+        public BasicPage1()
         {
             InitializeComponent();
         }
-
-       
     }
 }
