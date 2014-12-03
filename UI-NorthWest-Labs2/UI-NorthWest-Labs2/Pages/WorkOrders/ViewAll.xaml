@@ -11,7 +11,7 @@
         <mui:ModernTab Layout="Tab">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Pending Receipt" />
+                <mui:Link DisplayName="Pending Receipt" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml"/>
                 <mui:Link DisplayName="In Process" />
                 <mui:Link DisplayName="Rework Needed" />
                 <mui:Link DisplayName="Awaiting Approval" />
