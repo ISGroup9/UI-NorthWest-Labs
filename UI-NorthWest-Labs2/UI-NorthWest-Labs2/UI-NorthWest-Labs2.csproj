@@ -230,6 +230,9 @@
     <Compile Include="Pages\Tests\TestInfo.xaml.cs">
       <DependentUpon>TestInfo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\WorkOrders\RecievedWorkOrder.xaml.cs">
+      <DependentUpon>RecievedWorkOrder.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\WorkOrders\ViewAll.xaml.cs">
       <DependentUpon>ViewAll.xaml</DependentUpon>
     </Compile>
@@ -242,6 +245,9 @@
     <Compile Include="Pages\WorkOrders\Schedule.xaml.cs">
       <DependentUpon>Schedule.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\WorkOrders\WorkOrderPendingPreview1.xaml.cs">
+      <DependentUpon>WorkOrderPendingPreview1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\WorkOrders\WorkOrderPreview.xaml.cs">
       <DependentUpon>WorkOrderPreview.xaml</DependentUpon>
     </Compile>
@@ -250,6 +256,10 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Page Include="Pages\Tests\TestInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WorkOrders\RecievedWorkOrder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -268,6 +278,10 @@
     <Page Include="Pages\WorkOrders\Schedule.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WorkOrders\WorkOrderPendingPreview1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\WorkOrders\WorkOrderPreview.xaml">
       <SubType>Designer</SubType>
