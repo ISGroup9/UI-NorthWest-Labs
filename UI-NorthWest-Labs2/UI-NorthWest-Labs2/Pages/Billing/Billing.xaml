@@ -8,15 +8,15 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
         <!-- TODO: set @SelectedSource -->
-        <mui:ModernTab Layout="List">
+        <mui:ModernTab SelectedSource="/Pages/Billing/BillingPreview1.xaml#1" Layout="List">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Work Order #3987" Source="/Pages/Billing/BillingPreview1.xaml"/>
-                <mui:Link DisplayName="Work Order #3988" Source="/Pages/Billing/BillingPreview1.xaml"/>
-                <mui:Link DisplayName="Work Order #3989" Source="/Pages/Billing/BillingPreview1.xaml"/>
-                <mui:Link DisplayName="Work Order #3990" Source="/Pages/Billing/BillingPreview1.xaml"/>
-                <mui:Link DisplayName="Work Order #3992" Source="/Pages/Billing/BillingPreview1.xaml"/>
-                <mui:Link DisplayName="Work Order #3993" Source="/Pages/Billing/BillingPreview1.xaml"/>
+                <mui:Link DisplayName="Work Order #3987" Source="/Pages/Billing/BillingPreview1.xaml#1"/>
+                <mui:Link DisplayName="Work Order #3988" Source="/Pages/Billing/BillingPreview1.xaml#2"/>
+                <mui:Link DisplayName="Work Order #3989" Source="/Pages/Billing/BillingPreview1.xaml#3"/>
+                <mui:Link DisplayName="Work Order #3990" Source="/Pages/Billing/BillingPreview1.xaml#4"/>
+                <mui:Link DisplayName="Work Order #3992" Source="/Pages/Billing/BillingPreview1.xaml#5"/>
+                <mui:Link DisplayName="Work Order #3993" Source="/Pages/Billing/BillingPreview1.xaml#6"/>
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>

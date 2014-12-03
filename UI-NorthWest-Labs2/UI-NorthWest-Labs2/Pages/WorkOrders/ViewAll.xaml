@@ -8,14 +8,14 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
         <!-- TODO: set @SelectedSource -->
-        <mui:ModernTab Layout="Tab">
+        <mui:ModernTab SelectedSource="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml#1" Layout="Tab">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Pending Receipt" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml"/>
-                <mui:Link DisplayName="In Process" />
-                <mui:Link DisplayName="Rework Needed" />
-                <mui:Link DisplayName="Awaiting Approval" />
-                <mui:Link DisplayName="Completed" />
+                <mui:Link DisplayName="Pending Receipt" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml#1"/>
+                <mui:Link DisplayName="In Process" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml#2" />
+                <mui:Link DisplayName="Rework Needed" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml#3"/>
+                <mui:Link DisplayName="Awaiting Approval" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml#4"/>
+                <mui:Link DisplayName="Completed" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml#5" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>
