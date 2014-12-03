@@ -18,11 +18,18 @@ namespace UI_NorthWest_Labs2.Pages.Customers
     /// <summary>
     /// Interaction logic for CustomerLookup.xaml
     /// </summary>
-    public partial class CustomerLookup : UserControl
+    public partial class NewCustomer : UserControl
     {
-        public CustomerLookup()
+        public NewCustomer()
         {
             InitializeComponent();
+        }
+
+        private void CreateBtn_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationCommands.BrowseBack.Execute(null, MainWindow.frame);
+            CustomerConfirmation cc = new CustomerConfirmation();
+            cc.ShowDialog();
         }
 
        
