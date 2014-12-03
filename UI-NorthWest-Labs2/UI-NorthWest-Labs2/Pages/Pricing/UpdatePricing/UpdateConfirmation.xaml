@@ -1,0 +1,41 @@
+﻿<mui:ModernDialog x:Class="UI_NorthWest_Labs2.Pages.Pricing.UpdatePricing.UpdateConfirmation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             Title ="Price Updated"
+             mc:Ignorable="d" HorizontalAlignment="Left" VerticalAlignment="Top">
+    <Grid Style="{StaticResource ContentRoot}">
+        <ScrollViewer HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Grid Style="{StaticResource ContentRoot}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <TextBlock HorizontalAlignment="Left" Style ="{StaticResource Heading2}" TextWrapping="Wrap" Text="Update Successful" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="0,-1,-0.4,0" Width="482"/>
+
+                <TextBlock  Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="New Price:" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
+                <TextBlock  Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="$3.89" VerticalAlignment="Center"  HorizontalAlignment="Left" Margin="10,0,0,0"/>
+
+            </Grid>
+
+        </ScrollViewer>
+    </Grid>
+</mui:ModernDialog>
