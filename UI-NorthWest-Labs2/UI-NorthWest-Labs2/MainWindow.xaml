@@ -17,10 +17,10 @@
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="sales">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Create Sale" Source="/Pages/Sales/CreateNewSale.xaml"/>
-                <mui:Link DisplayName="Create Quotes" Source="/Pages/Sales/CreateQuotes.xaml" />
                 <mui:Link DisplayName="Search" Source="/Pages/Sales/SaleLookup.xaml"/>
-                <mui:Link DisplayName="Reports" Source="/Pages/Sales/SalesReports.xaml" />
+                <mui:Link DisplayName="Create Sale" Source="/Pages/Sales/CreateNewSale.xaml"/>
+                <mui:Link DisplayName="Create Quotes" Source="/Pages/Sales/CreateQuotes.xaml"/>
+                <mui:Link DisplayName="Reports" Source="/Pages/Sales/SalesReports.xaml"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="pricing">
@@ -31,14 +31,14 @@
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="customers">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Search" Source="/Pages/Customers/CustomerLookup.xaml" />
-                <mui:Link DisplayName="New Customer" Source="/Pages/Customers/NewCustomer.xaml" />
+                <mui:Link DisplayName="Search" Source="/Pages/Customers/CustomerLookup.xaml"/>
+                <mui:Link DisplayName="New Customer" Source="/Pages/Customers/NewCustomer.xaml"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="work orders">
             <mui:LinkGroup.Links>
                 <mui:Link DisplayName="Search"  Source="/Pages/WorkOrders/WorkOrderLookup.xaml"/>
-                <mui:Link DisplayName="Schedule" Source="/Pages/WorkOrders/Schedule.xaml" />
+                <mui:Link DisplayName="Schedule" Source="/Pages/WorkOrders/Schedule.xaml"/>
                 <mui:Link DisplayName="View All" Source="/Pages/WorkOrders/ViewAll.xaml"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
@@ -49,20 +49,20 @@
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="catalogs">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Protocol Notebook" Source="/Pages/Catalogs/ProtocolNotebook.xaml" />
+                <mui:Link DisplayName="Protocol Notebook" Source="/Pages/Catalogs/ProtocolNotebook.xaml"/>
                 <mui:Link DisplayName="PHARMACOLOGY SERVICES CATALOG" Source="/Pages/Catalogs/PharmacologyServicesCatalog.xaml"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="settings" GroupKey="settings">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="software" Source="/Pages/SettingsPage.xaml" />
+                <mui:Link DisplayName="software" Source="/Pages/SettingsPage.xaml"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
     </mui:ModernWindow.MenuLinkGroups>
     
     <mui:ModernWindow.TitleLinks>
-        <mui:Link DisplayName="settings" Source="/Pages/SettingsPage.xaml" />
-        <mui:Link DisplayName="help" Source="http://lmgtfy.com/?q=you+need+help" />
+        <mui:Link DisplayName="settings" Source="/Pages/SettingsPage.xaml"/>
+        <mui:Link DisplayName="help" Source="http://lmgtfy.com/?q=you+need+help"/>
         <mui:Link DisplayName="logged in as: George McKay"/>
     </mui:ModernWindow.TitleLinks>
 </mui:ModernWindow>
