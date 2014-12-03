@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="UI_NorthWest_Labs2.Pages.Billing.BillingPreview1"
+﻿<UserControl x:Class="UI_NorthWest_Labs2.Pages.Billing.BillingPreview2"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,6 @@
              xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-
     <ScrollViewer>
         <Grid Style="{StaticResource ContentRoot}" Margin="0">
             <Grid.ColumnDefinitions>
@@ -40,22 +39,22 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Work Order #3987" Style="{StaticResource Heading2}" Grid.ColumnSpan="2" />
-            <TextBlock Text="Seattle Pharmaceuticals, Inc." Grid.Row="1" Grid.Column="1" Margin="10,0,0,0" />
-            <TextBlock Text="93 S Jackson St #315 Seattle, WA 98104-2818" Grid.Row="3" Grid.Column="1" Margin="10,0,0,0" />
+            <TextBlock Text="Work Order #3988" Style="{StaticResource Heading2}" Grid.ColumnSpan="2" />
+            <TextBlock Text="Osmotica Pharmaceutical Co." Grid.Row="1" Grid.Column="1" Margin="10,0,0,0" />
+            <TextBlock Text="901 Sawyer Rd Marietta, GA 30062" Grid.Row="3" Grid.Column="1" Margin="10,0,0,0" />
 
 
 
             <TextBlock Text="Company Name:" Grid.Row="1" />
             <TextBlock Text="Address:" Grid.Row="3" />
             <TextBlock Text="Phone:" Grid.Row="4" />
-            <TextBlock Text="801-465-0426" Grid.Row="4" Grid.Column="1" Margin="10,0,0,0" />
+            <TextBlock Text="770-509-4500" Grid.Row="4" Grid.Column="1" Margin="10,0,0,0" />
             <TextBlock Text="Sale Date:" Grid.Row="5" />
-            <TextBlock Text="November 1, 2014" Grid.Row="5" Grid.Column="1" Margin="10,0,0,0" />
+            <TextBlock Text="November 2, 2014" Grid.Row="5" Grid.Column="1" Margin="10,0,0,0" />
             <TextBlock Text="Due Date:" Grid.Row="6" />
-            <TextBlock Text="November 30, 2014" Grid.Row="6" Grid.Column="1" Margin="10,0,0,0" />
+            <TextBlock Text="December 1, 2014" Grid.Row="6" Grid.Column="1" Margin="10,0,0,0" />
             <TextBlock Text="Customer #:" Grid.Row="2" />
-            <TextBlock Text="30906" Grid.Row="2" Grid.Column="1" Margin="10,0,0,0" />
+            <TextBlock Text="30986" Grid.Row="2" Grid.Column="1" Margin="10,0,0,0" />
 
             <Button x:Name="ViewWorkOrder" Command="NavigationCommands.GoToPage" CommandParameter="/Pages/WorkOrders/WorkOrderInfo.xaml" Content="View Order" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="7" VerticalAlignment="Top" Width="109" Grid.ColumnSpan="2"/>
 
@@ -63,14 +62,14 @@
 
             <TextBlock Text="Invoice" Grid.Row="12" FontWeight="Bold" FontSize="16" />
 
-            <TextBlock Text="Biochemical Pharmacology(BP):" Grid.Row="13" />
-            <TextBlock Text="$433.66" Grid.Row="13" Grid.Column="1" Margin="10,0,0,0" />
+            <TextBlock Text="DiscoverScreen(DS):" Grid.Row="13" />
+            <TextBlock Text="$387.43" Grid.Row="13" Grid.Column="1" Margin="10,0,0,0" />
 
-            <TextBlock Text="ProfilingScreen(PF):" Grid.Row="14" />
-            <TextBlock Text="$474.97" Grid.Row="14" Grid.Column="1" Margin="10,0,0,0" />
+            <TextBlock Text="ProfilingScreen(PF):" Grid.Row="15" />
+            <TextBlock Text="$474.97" Grid.Row="15" Grid.Column="1" Margin="10,0,0,0" />
 
-            <TextBlock Text="ImmunoScreen(IS):" Grid.Row="15" />
-            <TextBlock Text="$479.24" Grid.Row="15" Grid.Column="1" Margin="10,0,0,0" />
+            <TextBlock Text="ImmunoScreen(IS):" Grid.Row="14" />
+            <TextBlock Text="$479.24" Grid.Row="14" Grid.Column="1" Margin="10,0,0,0" />
 
             <TextBlock Text="Subtotal" Grid.Row="18" FontWeight="Bold" FontSize="14"/>
             <TextBlock Text="$1,387.87" Grid.Row="18" Grid.Column="1" Margin="10,0,0,0" FontWeight="Bold" FontSize="14" />

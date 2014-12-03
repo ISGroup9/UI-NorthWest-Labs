@@ -80,6 +80,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Billing\BillingPreview2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Catalogs\PharmacologyServicesCatalog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -101,6 +105,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\Customers\CustomerLookup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Sales\CreateQuotes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Pricing\ProfitabilityReports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Pricing\UpdatePrices.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -126,6 +142,9 @@
     <Compile Include="Pages\Billing\BillingPreview1.xaml.cs">
       <DependentUpon>BillingPreview1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Billing\BillingPreview2.xaml.cs">
+      <DependentUpon>BillingPreview2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Catalogs\PharmacologyServicesCatalog.xaml.cs">
       <DependentUpon>PharmacologyServicesCatalog.xaml</DependentUpon>
     </Compile>
@@ -143,6 +162,15 @@
     </Compile>
     <Compile Include="Pages\Customers\CustomerLookup.xaml.cs">
       <DependentUpon>CustomerLookup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sales\CreateQuotes.xaml.cs">
+      <DependentUpon>CreateQuotes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pricing\ProfitabilityReports.xaml.cs">
+      <DependentUpon>ProfitabilityReports.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pricing\UpdatePrices.xaml.cs">
+      <DependentUpon>UpdatePrices.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Sales\CreateNewSale.xaml.cs">
       <DependentUpon>CreateNewSale.xaml</DependentUpon>
