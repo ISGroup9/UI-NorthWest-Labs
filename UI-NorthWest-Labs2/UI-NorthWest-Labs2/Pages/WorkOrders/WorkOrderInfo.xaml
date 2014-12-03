@@ -28,11 +28,11 @@
 
 
         <!-- TODO: set @SelectedSource -->
-        <mui:ModernTab Layout="List" Margin="0,10,0,0" Grid.Row="7" Grid.ColumnSpan="2">
+        <mui:ModernTab SelectedSource="/Pages/Tests/TestInfo.xaml#1" Layout="List" Margin="0,10,0,0" Grid.Row="7" Grid.ColumnSpan="2">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Test 1" Source="/Pages/Tests/TestInfo.xaml"/>
-                <mui:Link DisplayName="Test 2" Source="/Pages/Tests/TestInfo.xaml"/>
+                <mui:Link DisplayName="Test 1" Source="/Pages/Tests/TestInfo.xaml#1"/>
+                <mui:Link DisplayName="Test 2" Source="/Pages/Tests/TestInfo.xaml#2"/>
             </mui:ModernTab.Links>
         </mui:ModernTab>
         <TextBlock Text="Company Name:" Grid.Row="1" />
