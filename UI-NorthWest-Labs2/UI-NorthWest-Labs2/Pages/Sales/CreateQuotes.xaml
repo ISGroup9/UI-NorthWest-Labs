@@ -30,18 +30,26 @@
             <TextBlock Text="Price Quote" Style="{StaticResource Heading2}" Grid.ColumnSpan="2" />
 
 
-            <TextBlock Text="Test Type:" Grid.Row="2" />
-            
-            
-
-            <TextBlock Text="Weight:" Grid.Row="4" />
-            <TextBox Text="22mg" Grid.Row="4" Grid.Column="1" Margin="0,0,0,0" />
+            <TextBlock Text="Test Type:" Grid.Row="2" VerticalAlignment="Top" />
 
 
-            <TextBlock Text="Molecular Weight:" Grid.Row="6" />
-            <TextBox Text="57" Grid.Row="6" Grid.Column="1" Margin="0,0,0,0" />
 
-            <Button x:Name="View_Work_Order" Content="View" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="11" VerticalAlignment="Top" Width="75" Click="View_Work_Order_Click"/>
+            <TextBlock Text="Weight:" Grid.Row="4" VerticalAlignment="Center"/>
+            <TextBox Text="22mg" Grid.Row="4" Grid.Column="1" Margin="6,0,0,0" Width="120" HorizontalAlignment="Left"/>
+
+
+            <TextBlock Text="Molecular Weight:" Grid.Row="6" VerticalAlignment="Center"/>
+            <TextBox Text="57" Grid.Row="6" Grid.Column="1" Margin="6,0,0,0" Width="120" HorizontalAlignment="Left"/>
+
+            <Button x:Name="View_Work_Order" Content="View" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="11" VerticalAlignment="Top" Width="75"/>
+            <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="6,0,0,6" Grid.Row="2" Width="120" >
+                <ListBoxItem Content="Biochemical Pharmacology"/>
+                <ListBoxItem Content="DiscoveryScreen"/>
+                <ListBoxItem Content="ImmunoScreen"/>
+                <ListBoxItem Content="ProfilingScreen"/>
+                <ListBoxItem Content="PharmaScreen"/>
+                <ListBoxItem Content="CustomScreen"/>
+            </ComboBox>
         </Grid>
     </ScrollViewer>
 
