@@ -1,4 +1,5 @@
-﻿using FirstFloor.ModernUI.Windows.Controls;
+﻿using FirstFloor.ModernUI.Presentation;
+using FirstFloor.ModernUI.Windows.Controls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,8 +23,11 @@ namespace UI_NorthWest_Labs2
     public partial class MainWindow : ModernWindow
     {
         public static IInputElement frame;
+        public static Uri uri = new Uri("/Assets/ModernUi.OurTheme.xaml", UriKind.Relative);
         public MainWindow()
+
         {
+            AppearanceManager.Current.ThemeSource = uri;
             InitializeComponent();
             
         }
