@@ -108,7 +108,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Pricing\CreatePrices.xaml">
+    <Page Include="Pages\Sales\CreateQuotes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -163,8 +163,8 @@
     <Compile Include="Pages\Customers\CustomerLookup.xaml.cs">
       <DependentUpon>CustomerLookup.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Pricing\CreatePrices.xaml.cs">
-      <DependentUpon>CreatePrices.xaml</DependentUpon>
+    <Compile Include="Pages\Sales\CreateQuotes.xaml.cs">
+      <DependentUpon>CreateQuotes.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Pricing\ProfitabilityReports.xaml.cs">
       <DependentUpon>ProfitabilityReports.xaml</DependentUpon>
