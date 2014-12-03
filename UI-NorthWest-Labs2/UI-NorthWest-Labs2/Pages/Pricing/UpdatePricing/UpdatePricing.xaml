@@ -25,7 +25,7 @@
                 <TextBox Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,4,0,4" TextWrapping="Wrap" Text="$2.39" VerticalAlignment="Top" Width="150"/>
                 <TextBlock  Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="Price per milligram:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
 
-                <Button x:Name="CreateBtn" Content="Update" Grid.Row="2" Grid.Column="1" Margin="10,4,0,4" HorizontalAlignment="Left" VerticalAlignment="Center" Width="75" Click="UpdateBtn_Click"/>
+                <Button x:Name="CreateBtn" Content="Update" Grid.Row="2" Grid.Column="1" Margin="10,4,0,4" HorizontalAlignment="Left" VerticalAlignment="Center" Width="auto" Click="UpdateBtn_Click"/>
 
             </Grid>
 
