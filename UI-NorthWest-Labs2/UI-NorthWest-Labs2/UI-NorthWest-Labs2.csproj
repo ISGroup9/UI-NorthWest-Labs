@@ -229,6 +229,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\icon_8070.png" />
     <Content Include="northwest_labs_256px.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
