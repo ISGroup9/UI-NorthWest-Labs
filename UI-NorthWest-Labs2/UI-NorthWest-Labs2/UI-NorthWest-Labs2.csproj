@@ -84,9 +84,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Customers\CustomerConfirmation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Customers\CustomerInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Customers\NewCustomer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\Customers\CustomerLookup.xaml">
       <SubType>Designer</SubType>
@@ -120,8 +128,14 @@
     <Compile Include="Pages\Catalogs\ProtocolNotebook.xaml.cs">
       <DependentUpon>ProtocolNotebook.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Customers\CustomerConfirmation.xaml.cs">
+      <DependentUpon>CustomerConfirmation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Customers\CustomerInfo.xaml.cs">
       <DependentUpon>CustomerInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Customers\NewCustomer.xaml.cs">
+      <DependentUpon>NewCustomer.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Customers\CustomerLookup.xaml.cs">
       <DependentUpon>CustomerLookup.xaml</DependentUpon>
