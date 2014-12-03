@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI_NorthWest_Labs2.Pages
+namespace UI_NorthWest_Labs2
 {
     /// <summary>
-    /// Interaction logic for Home.xaml
+    /// Interaction logic for BasicPage1.xaml
     /// </summary>
-    public partial class Home : UserControl
+    public partial class BasicPage1 : UserControl
     {
-        public Home()
+        public BasicPage1()
         {
             InitializeComponent();
         }
