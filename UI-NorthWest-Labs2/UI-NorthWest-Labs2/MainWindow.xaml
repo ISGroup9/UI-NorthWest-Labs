@@ -18,13 +18,13 @@
         <mui:LinkGroup DisplayName="sales">
             <mui:LinkGroup.Links>
                 <mui:Link DisplayName="Create Sale" Source="/Pages/Sales/CreateNewSale.xaml"/>
+                <mui:Link DisplayName="Create Quotes" Source="/Pages/Sales/CreateQuotes.xaml" />
                 <mui:Link DisplayName="Search" Source="/Pages/Sales/SaleLookup.xaml"/>
                 <mui:Link DisplayName="Reports" Source="/Pages/Sales/SalesReports.xaml" />
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="pricing">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Create Prices" Source="/Pages/Pricing/CreatePrices.xaml" />
                 <mui:Link DisplayName="Update Prices" Source="/Pages/Pricing/UpdatePrices.xaml"/>
                 <mui:Link DisplayName="Reports" Source="/Pages/Pricing/ProfitabilityReports.xaml"/>
             </mui:LinkGroup.Links>
