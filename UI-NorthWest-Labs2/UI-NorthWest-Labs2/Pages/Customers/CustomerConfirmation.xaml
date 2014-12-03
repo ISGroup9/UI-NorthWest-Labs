@@ -30,24 +30,24 @@
                 </Grid.RowDefinitions>
                 <TextBlock HorizontalAlignment="Left" Style ="{StaticResource Heading2}" TextWrapping="Wrap" Text="Customer Created" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="0,-1,-0.4,0" Width="482"/>
 
-                <TextBlock  Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="Customer #:" VerticalAlignment="Center"  Margin="10,4,0,4" HorizontalAlignment="Right"/>
-                <TextBlock  Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="30098" VerticalAlignment="Center" Margin="10,4,0,4" HorizontalAlignment="Left"/>
+                <TextBlock  Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="Customer #:" VerticalAlignment="Center"  HorizontalAlignment="Left" Width="70"/>
+                <TextBlock  Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="30098" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
 
-                <TextBlock  Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="Company:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
-                <TextBlock  Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" Text="DYNALABS LLC." VerticalAlignment="Center" Margin="10,4,0,4" HorizontalAlignment="Left"/>
-                
-                <TextBlock  Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="Contact:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
-                <TextBlock  Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" Text="James Odean" VerticalAlignment="Center" Margin="10,4,0,4" HorizontalAlignment="Left"/>
+                <TextBlock  Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="Company:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                <TextBlock  Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" Text="DYNALABS LLC." VerticalAlignment="Center"  HorizontalAlignment="Left"/>
 
-                <TextBlock  Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
-                <TextBlock  Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" Text="2327 Chouteau Avenue, Saint Louis, MO 63103" VerticalAlignment="Center" Margin="10,4,0,4" HorizontalAlignment="Left"/>
-                
-                <TextBlock  Grid.Row="5" Grid.Column="0" TextWrapping="Wrap" Text="Phone:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
-                <TextBlock  Grid.Row="5" Grid.Column="1" TextWrapping="Wrap" Text="314-241-3962" VerticalAlignment="Center" Margin="10,4,0,4" HorizontalAlignment="Left"/>
-                
-                <TextBlock  Grid.Row="6" Grid.Column="0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
-                <TextBlock  Grid.Row="6" Grid.Column="1" TextWrapping="Wrap" Text="support@dynalabs.com" VerticalAlignment="Center" Margin="10,4,0,4" HorizontalAlignment="Left"/>
-                
+                <TextBlock  Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="Contact:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                <TextBlock  Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" Text="James Odean" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
+
+                <TextBlock  Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                <TextBlock  Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" Text="2327 Chouteau Avenue, Saint Louis, MO 63103" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+
+                <TextBlock  Grid.Row="5" Grid.Column="0" TextWrapping="Wrap" Text="Phone:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                <TextBlock  Grid.Row="5" Grid.Column="1" TextWrapping="Wrap" Text="314-241-3962" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
+
+                <TextBlock  Grid.Row="6" Grid.Column="0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                <TextBlock  Grid.Row="6" Grid.Column="1" TextWrapping="Wrap" Text="support@dynalabs.com" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+
             </Grid>
 
         </ScrollViewer>
