@@ -33,7 +33,7 @@ namespace UI_NorthWest_Labs2.Pages.Settings
 
         // 20 accent colors from Windows Phone 8
         private Color[] accentColors = new Color[]{
-            Color.FromRgb(0xa4, 0xc4, 0x00),   // lime
+            Color.FromRgb(000, 192, 242),   // lime
             Color.FromRgb(0x60, 0xa9, 0x17),   // green
             Color.FromRgb(0x00, 0x8a, 0x00),   // emerald
             Color.FromRgb(0x00, 0xab, 0xa9),   // teal
@@ -60,9 +60,11 @@ namespace UI_NorthWest_Labs2.Pages.Settings
         private Link selectedTheme;
         private string selectedFontSize;
 
+
         public AppearanceViewModel()
         {
             // add the default themes
+            this.themes.Add(new Link { DisplayName = "Default", Source = MainWindow.uri});
             this.themes.Add(new Link { DisplayName = "dark", Source = AppearanceManager.DarkThemeSource });
             this.themes.Add(new Link { DisplayName = "light", Source = AppearanceManager.LightThemeSource });
 
