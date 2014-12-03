@@ -112,6 +112,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Pricing\UpdatePricing\UpdateConfirmation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Pricing\UpdatePricing\UpdatePricing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Sales\CreateQuotes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -169,6 +177,12 @@
     </Compile>
     <Compile Include="Pages\Customers\CustomerLookup.xaml.cs">
       <DependentUpon>CustomerLookup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pricing\UpdatePricing\UpdateConfirmation.xaml.cs">
+      <DependentUpon>UpdateConfirmation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pricing\UpdatePricing\UpdatePricing.xaml.cs">
+      <DependentUpon>UpdatePricing.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Sales\CreateQuotes.xaml.cs">
       <DependentUpon>CreateQuotes.xaml</DependentUpon>
