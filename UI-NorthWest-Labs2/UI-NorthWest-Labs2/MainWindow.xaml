@@ -17,8 +17,8 @@
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="sales">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Create New Sale" Source="/Pages/Sales/CreateNewSale.xaml"/>
-                <mui:Link DisplayName="Lookup" Source="/Pages/Sales/SaleLookup.xaml"/>
+                <mui:Link DisplayName="Create Sale" Source="/Pages/Sales/CreateNewSale.xaml"/>
+                <mui:Link DisplayName="Search" Source="/Pages/Sales/SaleLookup.xaml"/>
                 <mui:Link DisplayName="Reports" Source="/Pages/Sales/SalesReports.xaml" />
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
@@ -31,13 +31,13 @@
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="customers">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Lookup" Source="/Pages/Customers/CustomerLookup.xaml" />
+                <mui:Link DisplayName="Search" Source="/Pages/Customers/CustomerLookup.xaml" />
                 <mui:Link DisplayName="New Customer" Source="/Pages/Customers/NewCustomer.xaml" />
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="work orders">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Lookup"  Source="/Pages/WorkOrders/WorkOrderLookup.xaml"/>
+                <mui:Link DisplayName="Search"  Source="/Pages/WorkOrders/WorkOrderLookup.xaml"/>
                 <mui:Link DisplayName="Schedule" Source="/Pages/WorkOrders/Schedule.xaml" />
                 <mui:Link DisplayName="View All" Source="/Pages/WorkOrders/ViewAll.xaml"/>
             </mui:LinkGroup.Links>

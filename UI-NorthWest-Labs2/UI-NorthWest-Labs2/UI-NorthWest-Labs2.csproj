@@ -104,6 +104,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Pricing\CreatePrices.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Pricing\ProfitabilityReports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Pricing\UpdatePrices.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Sales\CreateNewSale.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -143,6 +155,15 @@
     </Compile>
     <Compile Include="Pages\Customers\CustomerLookup.xaml.cs">
       <DependentUpon>CustomerLookup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pricing\CreatePrices.xaml.cs">
+      <DependentUpon>CreatePrices.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pricing\ProfitabilityReports.xaml.cs">
+      <DependentUpon>ProfitabilityReports.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pricing\UpdatePrices.xaml.cs">
+      <DependentUpon>UpdatePrices.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Sales\CreateNewSale.xaml.cs">
       <DependentUpon>CreateNewSale.xaml</DependentUpon>
