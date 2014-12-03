@@ -29,7 +29,7 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <TextBlock HorizontalAlignment="Left" Style ="{StaticResource Heading2}" TextWrapping="Wrap" Text="Dynalabs LLC" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="0,-1,-0.4,0" Width="482"/>
+                <TextBlock HorizontalAlignment="Left" Style ="{StaticResource Heading2}" TextWrapping="Wrap" Text="DYNALABS LLC" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="0,-1,-0.4,0" Width="482"/>
 
                 <TextBlock  Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="Customer #:" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
                 <TextBlock  Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="30098" VerticalAlignment="Center"  HorizontalAlignment="Left" Margin="10,0,0,0"/>
