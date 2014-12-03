@@ -42,21 +42,21 @@
 
 
             <TextBlock Text="Molecular Weight:" Grid.Row="6" VerticalAlignment="Center"/>
-            <TextBox Text="57" Grid.Row="6" Grid.Column="1" Margin="6,0,0,0" Width="120" HorizontalAlignment="Left"/>
+            <TextBox Text="57.3485" Grid.Row="6" Grid.Column="1" Margin="6,0,0,0" Width="120" HorizontalAlignment="Left"/>
             <TextBlock Text="g/mol" Grid.Row="6" Grid.Column="2" HorizontalAlignment="left" Margin="130,0,0,0"/>
 
 
-            <Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="11" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="11" Grid.Column="1" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Calculate" Content="Calculate" HorizontalAlignment="left" Margin="100,10,0,0" Grid.Row="11" Grid.Column="1" VerticalAlignment="Top" Width="85"/>
+            <!--<Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="11" Grid.Column="0" VerticalAlignment="Top" Width="75"/>-->
+            <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="11" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
+            <Button x:Name="Calculate" Content="Calculate" HorizontalAlignment="left" Margin="110,10,0,0" Grid.Row="11" Grid.Column="1" VerticalAlignment="Top" Width="85"/>
 
-            <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="6,0,0,6" Grid.Row="2" Width="180" >
+            <ComboBox x:Name="cbTest" Grid.Column="1" HorizontalAlignment="Left" Margin="6,0,0,6" Grid.Row="2" Width="190" >
                 <ListBoxItem Content="Biochemical Pharmacology"/>
-                <ListBoxItem Content="DiscoveryScreen"/>
-                <ListBoxItem Content="ImmunoScreen"/>
-                <ListBoxItem Content="ProfilingScreen"/>
-                <ListBoxItem Content="PharmaScreen"/>
-                <ListBoxItem Content="CustomScreen"/>
+                <ListBoxItem Content="Discovery Screen"/>
+                <ListBoxItem Content="Immuno Screen"/>
+                <ListBoxItem Content="Profiling Screen"/>
+                <ListBoxItem Content="Pharma Screen"/>
+                <ListBoxItem Content="Custom Screen"/>
             </ComboBox>
         </Grid>
     </ScrollViewer>

@@ -23,6 +23,7 @@ namespace UI_NorthWest_Labs2.Pages.Pricing
         public CreatePrices()
         {
             InitializeComponent();
+            cbTest.SelectedIndex = 0;
         }
     }
 }
