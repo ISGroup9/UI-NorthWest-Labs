@@ -7,11 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
-        <ScrollViewer>
-            <StackPanel MinWidth="200">
-                <TextBlock Text="BASIC PAGE" Style="{StaticResource Heading2}" />
-                <TextBlock Text="Content goes here" />
-            </StackPanel>
-        </ScrollViewer>
+        <ScrollViewer/>
+        <Button x:Name="UploadCatalog" Content="Upload" HorizontalAlignment="Left" VerticalAlignment="Center" Width="100" Click="UploadCatalog_Click" Margin="30,89,0,141" />
+        <Button x:Name="DownloadCatalog" Content="Download" HorizontalAlignment="Left" VerticalAlignment="Center" Width="100" Click="DownloadCatalog_Click" Margin="158,89,0,141" />
+
     </Grid>
 </UserControl>
