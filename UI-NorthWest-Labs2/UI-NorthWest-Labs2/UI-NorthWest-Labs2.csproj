@@ -165,6 +165,9 @@
     <Compile Include="Pages\WorkOrders\Schedule.xaml.cs">
       <DependentUpon>Schedule.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\WorkOrders\WorkOrderPreview.xaml.cs">
+      <DependentUpon>WorkOrderPreview.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Page Include="Pages\Tests\TestInfo.xaml">
       <SubType>Designer</SubType>
@@ -183,6 +186,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\WorkOrders\Schedule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WorkOrders\WorkOrderPreview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

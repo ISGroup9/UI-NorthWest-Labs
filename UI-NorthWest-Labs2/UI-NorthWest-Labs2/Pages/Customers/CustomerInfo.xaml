@@ -28,8 +28,8 @@
         <mui:ModernTab Layout="List" Margin="0,10,0,0" Grid.Row="4" Grid.ColumnSpan="2">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Work Order 1" />
-                <mui:Link DisplayName="Work Order 2" />
+                <mui:Link DisplayName="Work Order 1" Source="/Pages/WorkOrders/WorkOrderPreview.xaml"/>
+                <mui:Link DisplayName="Work Order 2" Source="/Pages/WorkOrders/WorkOrderPreview.xaml"/>
             </mui:ModernTab.Links>
         </mui:ModernTab>
         <TextBlock Text="Address:" Grid.Row="2" />
