@@ -21,9 +21,18 @@ namespace UI_NorthWest_Labs2
     /// </summary>
     public partial class MainWindow : ModernWindow
     {
+        public static IInputElement frame;
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+        public override void OnApplyTemplate()
+        {
+            base.OnApplyTemplate();
+
+            frame = (ModernFrame)GetTemplateChild("ContentFrame");
         }
     }
+
 }

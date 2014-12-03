@@ -24,5 +24,12 @@ namespace UI_NorthWest_Labs2.Pages.WorkOrders
         {
             InitializeComponent();
         }
+
+        private void View_Work_Order_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/WorkOrderInfo.xaml", MainWindow.frame);
+        }
+
+  
     }
 }
