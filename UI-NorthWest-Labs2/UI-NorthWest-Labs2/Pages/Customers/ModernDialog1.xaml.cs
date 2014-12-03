@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstFloor.ModernUI.Windows.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,15 +17,16 @@ using System.Windows.Shapes;
 namespace UI_NorthWest_Labs2.Pages.Customers
 {
     /// <summary>
-    /// Interaction logic for CustomerLookup.xaml
+    /// Interaction logic for ModernDialog1.xaml
     /// </summary>
-    public partial class CustomerLookup : UserControl
+    public partial class ModernDialog1 : ModernDialog
     {
-        public CustomerLookup()
+        public ModernDialog1()
         {
             InitializeComponent();
-        }
 
-       
+            // define the dialog buttons
+            this.Buttons = new Button[] { this.OkButton, this.CancelButton };
+        }
     }
 }

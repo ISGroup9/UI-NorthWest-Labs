@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FirstFloor.ModernUI.Windows.Controls;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -13,16 +9,20 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace UI_NorthWest_Labs2.Pages.Customers
 {
     /// <summary>
     /// Interaction logic for BasicPage1.xaml
     /// </summary>
-    public partial class BasicPage1 : UserControl
+    public partial class CustomerConfirmation : ModernDialog
     {
-        public BasicPage1()
+        public CustomerConfirmation()
         {
             InitializeComponent();
+            this.Buttons = new Button[] { this.OkButton};
+            
+            
         }
     }
 }

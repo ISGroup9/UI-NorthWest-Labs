@@ -111,7 +111,7 @@
             <TextBox Grid.Row="10" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,4,0,4" TextWrapping="Wrap" Text="support@dynalabs.com" VerticalAlignment="Top" Width="150" />
             <TextBlock  Grid.Row="10" Grid.Column="0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
 
-            <Button Content="Create" Grid.Row="11" Grid.Column="1" Margin="10,4,0,4" HorizontalAlignment="Left" VerticalAlignment="Center" Width="75" Command="NavigationCommands.GoToPage" CommandParameter="/Pages/Customers/CustomerConfirmation.xaml"/>
+            <Button x:Name="CreateBtn" Content="Create" Grid.Row="11" Grid.Column="1" Margin="10,4,0,4" HorizontalAlignment="Left" VerticalAlignment="Center" Width="75" Click="CreateBtn_Click" />
 
         </Grid>
 
