@@ -10,6 +10,6 @@
 
     <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
 
-    <TextBlock Text="Work Order #4009 is now In Progress" />
+    <TextBlock Text="Work Order #4009 is now in progress" />
     
 </mui:ModernDialog>
