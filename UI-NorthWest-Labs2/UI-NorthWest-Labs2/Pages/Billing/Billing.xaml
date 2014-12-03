@@ -13,10 +13,7 @@
                 <!-- TODO: set @Source -->
                 <mui:Link DisplayName="Work Order #3987" Source="/Pages/Billing/BillingPreview1.xaml"/>
                 <mui:Link DisplayName="Work Order #3988" Source="/Pages/Billing/BillingPreview2.xaml"/>
-                <mui:Link DisplayName="Work Order #3989" Source="/Pages/Billing/BillingPreview1.xaml#3"/>
-                <mui:Link DisplayName="Work Order #3990" Source="/Pages/Billing/BillingPreview1.xaml#4"/>
-                <mui:Link DisplayName="Work Order #3991" Source="/Pages/Billing/BillingPreview1.xaml#5"/>
-                <mui:Link DisplayName="Work Order #3992" Source="/Pages/Billing/BillingPreview1.xaml#6"/>
+                <mui:Link DisplayName="Work Order #3989" Source="/Pages/Billing/BillingPreview3.xaml"/>
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>
