@@ -65,10 +65,59 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\Billing\Billing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Catalogs\PharmacologyServicesCatalog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Catalogs\ProtocolNotebook.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Customers\CustomerInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Customers\CustomerLookup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Sales\CreateNewSale.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Sales\SaleLookup.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pages\Settings\About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Compile Include="Pages\Billing\Billing.xaml.cs">
+      <DependentUpon>Billing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Catalogs\PharmacologyServicesCatalog.xaml.cs">
+      <DependentUpon>PharmacologyServicesCatalog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Catalogs\ProtocolNotebook.xaml.cs">
+      <DependentUpon>ProtocolNotebook.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Customers\CustomerInfo.xaml.cs">
+      <DependentUpon>CustomerInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Customers\CustomerLookup.xaml.cs">
+      <DependentUpon>CustomerLookup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sales\CreateNewSale.xaml.cs">
+      <DependentUpon>CreateNewSale.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sales\SaleLookup.xaml.cs">
+      <DependentUpon>SaleLookup.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Settings\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
@@ -94,11 +143,47 @@
     <Compile Include="Pages\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Tests\TestInfo.xaml.cs">
+      <DependentUpon>TestInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WorkOrders\ViewAll.xaml.cs">
+      <DependentUpon>ViewAll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WorkOrders\WorkOrderInfo.xaml.cs">
+      <DependentUpon>WorkOrderInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WorkOrders\WorkOrderLookup.xaml.cs">
+      <DependentUpon>WorkOrderLookup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WorkOrders\Schedule.xaml.cs">
+      <DependentUpon>Schedule.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Page Include="Pages\Tests\TestInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WorkOrders\ViewAll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WorkOrders\WorkOrderInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\WorkOrders\WorkOrderLookup.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\WorkOrders\Schedule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
