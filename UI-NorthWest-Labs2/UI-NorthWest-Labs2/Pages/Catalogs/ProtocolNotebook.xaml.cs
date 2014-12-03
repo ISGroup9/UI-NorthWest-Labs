@@ -24,5 +24,16 @@ namespace UI_NorthWest_Labs2.Pages.Catalogs
         {
             InitializeComponent();
         }
+
+        private void UploadProtocol_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("I hate when you guys make fun of me");
+        }
+
+        private void DownloadProtocol_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("I hate when you guys make fun of me");
+        }
+
     }
 }
