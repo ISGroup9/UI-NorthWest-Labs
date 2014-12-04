@@ -21,7 +21,7 @@ namespace UI_NorthWest_Labs2.Pages.Pricing.UpdatePricing
         public UpdatePricing()
         {
             Random random = new Random();
-            string randomdollar = "$" + string.Format("{0:0.##}", new Random().NextDouble() * 10);
+            string randomdollar = "$" + string.Format("{0:0.00}", new Random().NextDouble() * 10);
             
             InitializeComponent();
 
