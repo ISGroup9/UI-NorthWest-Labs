@@ -24,5 +24,10 @@ namespace UI_NorthWest_Labs2.Pages.Tests.Schedule
         {
             InitializeComponent();
         }
+
+        private void Schedule_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            NavigationCommands.GoToPage.Execute("/Pages/Tests/AllTestInfoScheduled/ScheduleTestInfoComplete1.xaml", MainWindow.frame);
+        }
     }
 }
