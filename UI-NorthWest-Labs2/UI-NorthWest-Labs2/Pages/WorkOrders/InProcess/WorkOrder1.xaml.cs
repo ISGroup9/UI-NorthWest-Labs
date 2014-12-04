@@ -28,7 +28,7 @@ namespace UI_NorthWest_Labs2.Pages.WorkOrders.InProcess
         private void CreateBtn_Click(object sender, RoutedEventArgs e)
         {
             //set pdf name here
-            string pdfname = "campusmap";
+            string pdfname = "WorkOrder";
 
             //add PDF folder and .pdf to filename
             string fullname = "\\PDF\\" + pdfname + ".pdf";

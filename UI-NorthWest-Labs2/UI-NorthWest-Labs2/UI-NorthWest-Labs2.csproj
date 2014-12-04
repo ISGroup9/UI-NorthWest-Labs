@@ -425,6 +425,7 @@
     <None Include="PDF\ProfReport.pdf" />
     <None Include="PDF\SalesReport.pdf" />
     <None Include="PDF\SampleCatalog.pdf" />
+    <None Include="PDF\WorkOrder.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\avatar.png" />
