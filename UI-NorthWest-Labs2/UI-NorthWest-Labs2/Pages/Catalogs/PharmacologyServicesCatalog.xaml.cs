@@ -32,7 +32,7 @@ namespace UI_NorthWest_Labs2.Pages.Catalogs
         {
             OpenFileDialog openFileDialog1 = new Microsoft.Win32.OpenFileDialog();
             openFileDialog1.Filter = "PDF files (*.PDF)|*.txt|All files (*.*)|*.*";
-            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.FilterIndex = 2;
             string filepath = AppDomain.CurrentDomain.BaseDirectory;
             filepath = filepath.Remove(filepath.Length - 10);
             openFileDialog1.InitialDirectory = filepath + "PDF";
