@@ -68,6 +68,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Catalogs\CatalogReports.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Home.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -78,6 +82,9 @@
     </Page>
     <Compile Include="Pages\Billing\BillingConfirmation.xaml.cs">
       <DependentUpon>BillingConfirmation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Catalogs\CatalogReports.xaml.cs">
+      <DependentUpon>CatalogReports.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
@@ -392,10 +399,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <EmbeddedResource Include="Pages\Catalogs\SampleCatalog.pdf" />
     <None Include="PDF\CustomerReport.pdf" />
+    <None Include="PDF\FinishedProtocol.pdf" />
     <None Include="PDF\ProfReport.pdf" />
     <None Include="PDF\SalesReport.pdf" />
+    <None Include="PDF\SampleCatalog.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\avatar.png" />

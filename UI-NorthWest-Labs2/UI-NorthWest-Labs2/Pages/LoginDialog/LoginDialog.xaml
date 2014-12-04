@@ -31,7 +31,7 @@
         <TextBox Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" Height="auto" Margin="10,4.4,0,0" TextWrapping="Wrap" Text="George McKay" VerticalAlignment="Center" Width="150"/>
         <TextBlock  Grid.Row="0" Grid.Column="1" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Center" Margin="0,7.4,0,7.8" HorizontalAlignment="Right"/>
 
-        <PasswordBox Grid.Row="1" Grid.Column="2" Password="Testing3"  HorizontalAlignment="Left" Height="auto" Margin="10,4.2,0,0" VerticalAlignment="center" Width="150" />
+        <PasswordBox Grid.Row="1" Grid.Column="2" Password=""  HorizontalAlignment="Left" Height="auto" Margin="10,4.2,0,0" VerticalAlignment="center" Width="150" />
         <TextBlock  Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="Password" VerticalAlignment="Center" Margin="0,7.2,0,8" HorizontalAlignment="Right"/>
         <Canvas Grid.Row="0"  HorizontalAlignment="Left" Height="100" Margin="10,3,10,10" Grid.RowSpan="4" VerticalAlignment="Top" Width="100">
             <Canvas.Background>

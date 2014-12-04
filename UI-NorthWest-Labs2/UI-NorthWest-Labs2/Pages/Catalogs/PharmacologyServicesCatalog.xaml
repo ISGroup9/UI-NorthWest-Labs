@@ -8,8 +8,9 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
         <ScrollViewer/>
-        <Button x:Name="UploadCatalog" Content="Upload" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="UploadCatalog_Click" Margin="30,89,0,141" />
-        <Button x:Name="DownloadCatalog" Content="Download" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="DownloadCatalog_Click" Margin="158,89,0,141" />
+        <TextBlock HorizontalAlignment="Left" Style ="{StaticResource Heading2}" TextWrapping="Wrap" Text="Catalog Options" VerticalAlignment="Top" Margin="0,-1,0,0" Width="268"/>
+        <Button x:Name="UploadCatalog" Content="Upload" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="UploadCatalog_Click" Margin="23,37,0,0" />
+        <Button x:Name="DownloadCatalog" Content="Download" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="DownloadCatalog_Click" Margin="148,37,0,0" />
 
     </Grid>
 </UserControl>
