@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using UI_NorthWest_Labs2.Pages.Billing;
 
 namespace UI_NorthWest_Labs2.Pages
 {
@@ -23,6 +24,12 @@ namespace UI_NorthWest_Labs2.Pages
         public BillingPreview3()
         {
             InitializeComponent();
+        }
+
+        private void ApplyDiscountandBill_Click(object sender, RoutedEventArgs e)
+        {
+            BillingConfirmation newBill = new BillingConfirmation();
+            newBill.ShowDialog();
         }
     }
 }
