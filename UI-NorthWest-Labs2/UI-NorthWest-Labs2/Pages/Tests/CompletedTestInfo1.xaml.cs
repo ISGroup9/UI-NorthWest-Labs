@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,16 @@ namespace UI_NorthWest_Labs2.Pages.Tests
         public CompletedTestInfo1()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog1 = new Microsoft.Win32.OpenFileDialog();
+
+            openFileDialog1.Filter = "PDF files (*.PDF)|*.txt|All files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 2;
+            openFileDialog1.RestoreDirectory = true;
+            openFileDialog1.ShowDialog();
         }
     }
 }

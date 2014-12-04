@@ -8,9 +8,9 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
 
-        <Button x:Name="UploadProtocol" Content="Upload" HorizontalAlignment="Left" VerticalAlignment="Center" Width="100" Click="UploadProtocol_Click" Margin="30,89,0,141" />
+        <Button x:Name="UploadProtocol" Content="Upload" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="UploadProtocol_Click" Margin="30,89,0,141" />
 
-        <Button x:Name="DownloadProtocol" Content="Download" HorizontalAlignment="Left" VerticalAlignment="Center" Width="100" Click="DownloadProtocol_Click" Margin="158,89,0,141" />
+        <Button x:Name="DownloadProtocol" Content="Download" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Click="DownloadProtocol_Click" Margin="158,89,0,141" />
 
     </Grid>
 </UserControl>
