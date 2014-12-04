@@ -24,5 +24,11 @@ namespace UI_NorthWest_Labs2.Pages.Sales
         {
             InitializeComponent();
         }
+        private void CreateBtn_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationCommands.BrowseBack.Execute(null, MainWindow.frame);
+            SaleConfirmation sc = new SaleConfirmation();
+            sc.ShowDialog();
+        }
     }
 }

@@ -180,6 +180,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Sales\SaleConfirmation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Sales\SaleLookup.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -251,6 +255,9 @@
     </Compile>
     <Compile Include="Pages\Sales\Reports\PerformanceReport.xaml.cs">
       <DependentUpon>PerformanceReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sales\SaleConfirmation.xaml.cs">
+      <DependentUpon>SaleConfirmation.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Sales\SaleLookup.xaml.cs">
       <DependentUpon>SaleLookup.xaml</DependentUpon>
