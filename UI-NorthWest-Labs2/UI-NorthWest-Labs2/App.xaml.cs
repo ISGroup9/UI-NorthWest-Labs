@@ -17,11 +17,9 @@ namespace UI_NorthWest_Labs2
         {
             private const int MINIMUM_SPLASH_TIME = 1500; // Miliseconds
             private const int SPLASH_FADE_TIME = 100; // Miliseconds
-            
 
             protected override void OnStartup(StartupEventArgs e)
             {
-                
                 // Step 1 - Load the splash screen
                 SplashScreen splash = new SplashScreen("SplashScreen.png");
                 //splash.Show(false, true);
@@ -36,13 +34,11 @@ namespace UI_NorthWest_Labs2
                 // Step 4 - Make sure that the splash screen lasts at least two seconds
                 timer.Stop();
                 int remainingTimeToShowSplash = MINIMUM_SPLASH_TIME - (int)timer.ElapsedMilliseconds;
-                if (remainingTimeToShowSplash > 0)
-                    Thread.Sleep(remainingTimeToShowSplash);
+                if (remainingTimeToShowSplash > 0) Thread.Sleep(remainingTimeToShowSplash);
 
                 // Step 5 - show the page
                 splash.Close(TimeSpan.FromMilliseconds(SPLASH_FADE_TIME));
             }
-
         }
     }
 
