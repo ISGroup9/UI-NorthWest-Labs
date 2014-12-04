@@ -350,6 +350,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <EmbeddedResource Include="Pages\Catalogs\SampleCatalog.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\avatar.png" />
