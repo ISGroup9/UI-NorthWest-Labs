@@ -24,7 +24,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Work Order #4009" Style="{StaticResource Heading2}" Grid.ColumnSpan="2" />
+            <TextBlock Text="Work Order #4009 - Pending Receipt" Style="{StaticResource Heading2}" Grid.ColumnSpan="2" />
             <TextBlock Text="Seattle Pharmaceuticals, Inc." Grid.Row="1" Grid.Column="1" Margin="10,0,0,0" />
             <TextBlock Text="93 S Jackson St #315 Seattle, WA 98104-2818" Grid.Row="3" Grid.Column="1" Margin="10,0,0,0" />
 
