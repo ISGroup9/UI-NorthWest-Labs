@@ -53,7 +53,22 @@ namespace UI_NorthWest_Labs2.Pages.Pricing
 
         private void Calculate_Click(object sender, RoutedEventArgs e)
         {
+            double weightone = Convert.ToDouble(w.Text);
+            double weighttwo = Convert.ToDouble(molw.Text);
+
+            double calculation = weightone * weighttwo * 3; 
+
+            string pricecalculation = "$" + calculation.ToString ("#,###.00");;
+
+            totalprice.Text = pricecalculation;
             totalprice.Visibility = System.Windows.Visibility.Visible;
+        }
+
+        private void Clear_Click(object sender, RoutedEventArgs e)
+        {
+            totalprice.Visibility = System.Windows.Visibility.Hidden;
+            w.Text = "";
+            molw.Text = "";
         }
 
        
