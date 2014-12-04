@@ -34,6 +34,9 @@ namespace UI_NorthWest_Labs2.Pages.Tests
             openFileDialog1.FilterIndex = 2;
             openFileDialog1.RestoreDirectory = true;
             openFileDialog1.ShowDialog();
+
+            UploadConfirmation newuc = new UploadConfirmation();
+            newuc.ShowDialog();
         }
     }
 }
