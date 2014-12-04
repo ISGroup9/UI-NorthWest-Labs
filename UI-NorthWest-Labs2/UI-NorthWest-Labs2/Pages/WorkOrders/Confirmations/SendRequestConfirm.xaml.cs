@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstFloor.ModernUI.Windows.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,23 +14,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI_NorthWest_Labs2.Pages.WorkOrders
+namespace UI_NorthWest_Labs2.Pages.WorkOrders.Confirmations
 {
     /// <summary>
-    /// Interaction logic for WorkOrderPreview.xaml
+    /// Interaction logic for SendRequestConfirm.xaml
     /// </summary>
-    public partial class WorkOrderPreview : UserControl
+    public partial class SendRequestConfirm : ModernDialog
     {
-        public WorkOrderPreview()
+        public SendRequestConfirm()
         {
             InitializeComponent();
-        }
 
-        private void View_Work_Order_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/InProcess/WorkOrder1.xaml", MainWindow.frame);
+            // define the dialog buttons
+            this.Buttons = new Button[] { this.OkButton, this.CancelButton };
         }
-
-  
     }
 }

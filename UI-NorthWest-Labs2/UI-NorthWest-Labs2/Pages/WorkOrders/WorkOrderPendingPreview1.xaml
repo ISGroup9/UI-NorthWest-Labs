@@ -41,7 +41,7 @@
             <TextBlock Text="30906" Grid.Row="2" Grid.Column="1" Margin="10,0,0,0" />
             <TextBlock Text="Customer #:" Grid.Row="2" />
             <Button x:Name="View_Work_Order" Content="View" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="7" VerticalAlignment="Top" Width="75" Click="View_Work_Order_Click"/>
-            <Button x:Name="BeginBtn" Content="Received" HorizontalAlignment="Left" Margin="80,10,0,0" Grid.Row="7" VerticalAlignment="Top" Width="93" Click="Begin_Click" Grid.ColumnSpan="2"/>
+            <Button x:Name="BeginBtn" Content="Receive" HorizontalAlignment="Left" Margin="80,10,0,0" Grid.Row="7" VerticalAlignment="Top" Width="93" Click="Begin_Click" Grid.ColumnSpan="2"/>
         </Grid>
 
 
