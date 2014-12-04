@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstFloor.ModernUI.Windows.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,12 @@ namespace UI_NorthWest_Labs2.Pages.Billing
     /// </summary>
     public partial class Billing : UserControl
     {
+        public static ModernTab links1;
         public Billing()
         {
+            
             InitializeComponent();
+            links1 = links;
         }
     }
 }
