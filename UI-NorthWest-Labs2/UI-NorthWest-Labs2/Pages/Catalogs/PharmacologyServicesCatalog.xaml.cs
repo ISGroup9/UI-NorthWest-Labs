@@ -30,29 +30,22 @@ namespace UI_NorthWest_Labs2.Pages.Catalogs
 
         private void UploadCatalog_Click(object sender, RoutedEventArgs e)
         {
-            
-            //MessageBox.Show("I hate when you guys make fun of me");
+            OpenFileDialog openFileDialog1 = new Microsoft.Win32.OpenFileDialog();
+
+            openFileDialog1.Filter = "PDF files (*.PDF)|*.txt|All files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 2;
+            openFileDialog1.RestoreDirectory = true;
+            openFileDialog1.ShowDialog();
         }
 
         private void DownloadCatalog_Click(object sender, RoutedEventArgs e)
         {
-            
             SaveFileDialog saveFileDialog1 = new Microsoft.Win32.SaveFileDialog();
 
             saveFileDialog1.Filter = "PDF files (*.PDF)|*.txt|All files (*.*)|*.*";
             saveFileDialog1.FilterIndex = 2;
             saveFileDialog1.RestoreDirectory = true;
             saveFileDialog1.ShowDialog();
-
-            //if (saveFileDialog1.ShowDialog() == DialogResult.OK)
-            //{
-            //    if ((myStream = saveFileDialog1.OpenFile()) != null)
-            //    {
-            //        // Code to write the stream goes here.
-            //        myStream.Close();
-            //    }
-            //}
-            //MessageBox.Show("I hate when you guys make fun of me");
         }
     }
 }
