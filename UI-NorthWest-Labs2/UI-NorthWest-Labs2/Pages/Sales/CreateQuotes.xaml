@@ -35,7 +35,7 @@
 
             <TextBlock Text="Weight:" Grid.Row="4" VerticalAlignment="Center"/>
             <TextBox Text="22" Grid.Row="4" Grid.Column="1" Margin="6,0,0,0" Width="120" HorizontalAlignment="Left"/>
-            <TextBlock Text="mg" Grid.Row="4" Grid.Column="2" HorizontalAlignment="left" Margin="130,0,0,0"/>
+            <TextBlock Text="oz" Grid.Row="4" Grid.Column="2" HorizontalAlignment="left" Margin="130,0,0,0"/>
 
             <TextBlock Text="Price Estimate:" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Grid.Row="8" Grid.Column="0"/>
             <TextBlock Text="$463.55" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Grid.Row="8" Grid.Column="1" Margin="5,0,0,0"/>
