@@ -24,5 +24,22 @@ namespace UI_NorthWest_Labs2.Pages.Tests.Schedule
         {
             InitializeComponent();
         }
+
+        private void ScheduleBtn_Click(object sender, RoutedEventArgs e)
+        {
+            ScheduleTestDialog d = new ScheduleTestDialog();
+            d.ShowDialog();
+            Schedule.Items.Remove(Schedule.SelectedItem);
+        }
+
+        private void Schedule_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ScheduleBtn.IsEnabled = true;
+        }
+
+        private void Schedule_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            NavigationCommands.GoToPage.Execute("/Pages/Tests/Received/ReceivedTestInfoComplete1.xaml", MainWindow.frame);
+        }
     }
 }
