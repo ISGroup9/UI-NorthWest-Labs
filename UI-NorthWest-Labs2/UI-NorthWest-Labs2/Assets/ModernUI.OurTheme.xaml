@@ -4,21 +4,29 @@
 
     <!-- derive from Light or Dark theme-->
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/ModernUI.Dark.xaml" />
+        
+        
+        <!-- (1 of 2) change "Light" to "Dark" below for Landon's Dark Theme-->
+        <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/ModernUI.Light.xaml" />
+        
+        
     </ResourceDictionary.MergedDictionaries>
 
     <!-- specify the accent color (optional) -->
     <Color x:Key="AccentColor">#00C0F2</Color>
+    
+    
 
+    <!-- (2 of 2) uncomment rectangle below for Landon's Dark Theme-->
     <!-- custom theme resources-->
-    <Rectangle x:Key="WindowBackgroundContent" x:Shared="false">
+    <!--<Rectangle x:Key="WindowBackgroundContent" x:Shared="false">
         <Rectangle.Fill>
             <SolidColorBrush Opacity=".04" Color="{DynamicResource AccentColor}"/>
-            <!--<LinearGradientBrush EndPoint="0,1" Opacity=".05" ColorInterpolationMode="ScRgbLinearInterpolation">
-                <GradientStop Offset=".3" Color="Transparent" />
-                <GradientStop Offset="0" Color="{DynamicResource AccentColor}" />
-                
-            </LinearGradientBrush>-->
         </Rectangle.Fill>
-    </Rectangle>
+    </Rectangle>-->
+    
+    
+    
+    
+    
 </ResourceDictionary>
