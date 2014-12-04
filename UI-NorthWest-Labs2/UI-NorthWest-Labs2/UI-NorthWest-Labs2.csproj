@@ -72,6 +72,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Catalogs\Confirmation\FileUploaded.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Home.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -85,6 +89,9 @@
     </Compile>
     <Compile Include="Pages\Catalogs\CatalogReports.xaml.cs">
       <DependentUpon>CatalogReports.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Catalogs\Confirmation\FileUploaded.xaml.cs">
+      <DependentUpon>FileUploaded.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>

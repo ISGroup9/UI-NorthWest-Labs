@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using UI_NorthWest_Labs2.Pages.Catalogs.Confirmation;
 
 namespace UI_NorthWest_Labs2.Pages.Catalogs
 {
@@ -35,8 +36,8 @@ namespace UI_NorthWest_Labs2.Pages.Catalogs
             filepath = filepath.Remove(filepath.Length - 10);
             openFileDialog1.InitialDirectory = filepath + "PDF";
             openFileDialog1.ShowDialog();
-
-            MessageBox.Show("File Uploaded Successfully");
+            FileUploaded f = new FileUploaded();
+            f.ShowDialog();
         }
 
         private void DownloadProtocol_Click(object sender, RoutedEventArgs e)
