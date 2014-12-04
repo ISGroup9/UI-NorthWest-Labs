@@ -15,23 +15,24 @@ using System.Windows.Shapes;
 
 namespace UI_NorthWest_Labs2.Pages.Pricing.UpdatePricing
 {
-    /// <summary>
-    /// Interaction logic for BasicPage1.xaml
-    /// </summary>
+
     public partial class UpdatePricing : UserControl
     {
         public UpdatePricing()
         {
-            InitializeComponent();
-            
             Random random = new Random();
-            UpdateField.Text = "$" + string.Format("{0:0.##}", new Random().NextDouble() * 10);
+            string randomdollar = "$" + string.Format("{0:0.##}", new Random().NextDouble() * 10);
+            
+            InitializeComponent();
+
+            UpdateField.Text = randomdollar;
         }
 
         private void UpdateBtn_Click(object sender, RoutedEventArgs e)
         {
             NavigationCommands.BrowseBack.Execute(null, MainWindow.frame);
-            UpdateConfirmation uc = new UpdateConfirmation();
+            string pricechange = UpdateField.Text;
+            UpdateConfirmation uc = new UpdateConfirmation(pricechange);
             uc.ShowDialog();
         }
     }

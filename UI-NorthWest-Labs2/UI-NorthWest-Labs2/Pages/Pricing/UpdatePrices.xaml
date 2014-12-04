@@ -11,12 +11,12 @@
         <mui:ModernTab SelectedSource ="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml#1" Layout="List" Margin="0,0,-10,0" ListWidth="auto">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Biochemical Pharmacology (BP)" Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml#1"/>
-                <mui:Link DisplayName="DiscoveryScreen (DS)" Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml#2" />
-                <mui:Link DisplayName="ImmunoScreen (IS) " Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml#3" />
-                <mui:Link DisplayName="ProfilingScreen (PF) " Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml#4" />
-                <mui:Link DisplayName="PharmaScreen (PS) " Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml#5" />
-                <mui:Link DisplayName="CustomScreen (CS)" Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml#6" />
+                <mui:Link DisplayName="Biochemical Pharmacology (BP)" Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml?1"/>
+                <mui:Link DisplayName="DiscoveryScreen (DS)" Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml?2" />
+                <mui:Link DisplayName="ImmunoScreen (IS) " Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml?3" />
+                <mui:Link DisplayName="ProfilingScreen (PF) " Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml?4" />
+                <mui:Link DisplayName="PharmaScreen (PS) " Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml?5" />
+                <mui:Link DisplayName="CustomScreen (CS)" Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml?6" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>
