@@ -5,13 +5,321 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid Style="{StaticResource ContentRoot}">
-        <ScrollViewer>
-            <StackPanel MinWidth="200">
-                <TextBlock Text="BASIC PAGE" Style="{StaticResource Heading2}" />
-                <TextBlock Text="Content goes here" />
-            </StackPanel>
-        </ScrollViewer>
+             d:DesignHeight="800" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+
+        <ListBox x:Name="Schedule" HorizontalAlignment="Left" Width="350" MouseDoubleClick="Schedule_MouseDoubleClick" Grid.Row="0" SelectionChanged="Schedule_SelectionChanged">
+
+            <ListBoxItem>
+                <StackPanel>
+                    <TextBlock Text="Test #39409-1 PharmaScreen" Style="{StaticResource Heading2}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="0*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Compound Code:" Grid.Column="0" Grid.Row="0"/>
+                        <TextBlock Text="SEA309" Grid.Column="2" Grid.Row="0"/>
+                        <TextBlock Text="Work Order #:" Grid.Column="0" Grid.Row="1"/>
+                        <TextBlock Text="49046" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Due Date:" Grid.Column="0" Grid.Row="2"/>
+                        <TextBlock Text="November 30, 2014" Grid.Column="2" Grid.Row="2"/>
+
+                    </Grid>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel>
+                    <TextBlock Text="Test #39439-4 PharmaScreen" Style="{StaticResource Heading2}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="0*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Compound Code:" Grid.Column="0" Grid.Row="0"/>
+                        <TextBlock Text="FER330" Grid.Column="2" Grid.Row="0"/>
+                        <TextBlock Text="Work Order #:" Grid.Column="0" Grid.Row="1"/>
+                        <TextBlock Text="48930" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Due Date:" Grid.Column="0" Grid.Row="2"/>
+                        <TextBlock Text="November 25, 2014" Grid.Column="2" Grid.Row="2"/>
+
+                    </Grid>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel>
+                    <TextBlock Text="Test #39450-2 PharmaScreen" Style="{StaticResource Heading2}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="0*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Compound Code:" Grid.Column="0" Grid.Row="0"/>
+                        <TextBlock Text="REP330" Grid.Column="2" Grid.Row="0"/>
+                        <TextBlock Text="Work Order #:" Grid.Column="0" Grid.Row="1"/>
+                        <TextBlock Text="83902" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Due Date:" Grid.Column="0" Grid.Row="2"/>
+                        <TextBlock Text="December 10, 2014" Grid.Column="2" Grid.Row="2"/>
+
+                    </Grid>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel>
+                    <TextBlock Text="Test #48920-1 PharmaScreen" Style="{StaticResource Heading2}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="0*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Compound Code:" Grid.Column="0" Grid.Row="0"/>
+                        <TextBlock Text="WEB001" Grid.Column="2" Grid.Row="0"/>
+                        <TextBlock Text="Work Order #:" Grid.Column="0" Grid.Row="1"/>
+                        <TextBlock Text="34523" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Due Date:" Grid.Column="0" Grid.Row="2"/>
+                        <TextBlock Text="November 25, 2014" Grid.Column="2" Grid.Row="2"/>
+
+                    </Grid>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel>
+                    <TextBlock Text="Test #43242-1 PharmaScreen" Style="{StaticResource Heading2}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="0*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Compound Code:" Grid.Column="0" Grid.Row="0"/>
+                        <TextBlock Text="REP232" Grid.Column="2" Grid.Row="0"/>
+                        <TextBlock Text="Work Order #:" Grid.Column="0" Grid.Row="1"/>
+                        <TextBlock Text="43222" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Due Date:" Grid.Column="0" Grid.Row="2"/>
+                        <TextBlock Text="November 25, 2014" Grid.Column="2" Grid.Row="2"/>
+
+                    </Grid>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel>
+                    <TextBlock Text="Test #39439-4 PharmaScreen" Style="{StaticResource Heading2}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="0*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Compound Code:" Grid.Column="0" Grid.Row="0"/>
+                        <TextBlock Text="FER330" Grid.Column="2" Grid.Row="0"/>
+                        <TextBlock Text="Work Order #:" Grid.Column="0" Grid.Row="1"/>
+                        <TextBlock Text="48930" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Due Date:" Grid.Column="0" Grid.Row="2"/>
+                        <TextBlock Text="November 25, 2014" Grid.Column="2" Grid.Row="2"/>
+
+                    </Grid>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel>
+                    <TextBlock Text="Test #43242-1 PharmaScreen" Style="{StaticResource Heading2}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="0*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Compound Code:" Grid.Column="0" Grid.Row="0"/>
+                        <TextBlock Text="REP232" Grid.Column="2" Grid.Row="0"/>
+                        <TextBlock Text="Work Order #:" Grid.Column="0" Grid.Row="1"/>
+                        <TextBlock Text="43222" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Due Date:" Grid.Column="0" Grid.Row="2"/>
+                        <TextBlock Text="November 25, 2014" Grid.Column="2" Grid.Row="2"/>
+
+                    </Grid>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel>
+                    <TextBlock Text="Test #43242-1 PharmaScreen" Style="{StaticResource Heading2}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="0*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Compound Code:" Grid.Column="0" Grid.Row="0"/>
+                        <TextBlock Text="REP232" Grid.Column="2" Grid.Row="0"/>
+                        <TextBlock Text="Work Order #:" Grid.Column="0" Grid.Row="1"/>
+                        <TextBlock Text="43222" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Due Date:" Grid.Column="0" Grid.Row="2"/>
+                        <TextBlock Text="November 25, 2014" Grid.Column="2" Grid.Row="2"/>
+
+                    </Grid>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel>
+                    <TextBlock Text="Test #43242-1 PharmaScreen" Style="{StaticResource Heading2}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="0*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Compound Code:" Grid.Column="0" Grid.Row="0"/>
+                        <TextBlock Text="REP232" Grid.Column="2" Grid.Row="0"/>
+                        <TextBlock Text="Work Order #:" Grid.Column="0" Grid.Row="1"/>
+                        <TextBlock Text="43222" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Due Date:" Grid.Column="0" Grid.Row="2"/>
+                        <TextBlock Text="November 25, 2014" Grid.Column="2" Grid.Row="2"/>
+
+                    </Grid>
+                </StackPanel>
+
+            </ListBoxItem>
+            <ListBoxItem>
+                <StackPanel>
+                    <TextBlock Text="Test #43242-1 PharmaScreen" Style="{StaticResource Heading2}" />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="0*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="10"/>
+
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="Compound Code:" Grid.Column="0" Grid.Row="0"/>
+                        <TextBlock Text="REP232" Grid.Column="2" Grid.Row="0"/>
+                        <TextBlock Text="Work Order #:" Grid.Column="0" Grid.Row="1"/>
+                        <TextBlock Text="43222" Grid.Column="2" Grid.Row="1"/>
+                        <TextBlock Text="Due Date:" Grid.Column="0" Grid.Row="2"/>
+                        <TextBlock Text="November 25, 2014" Grid.Column="2" Grid.Row="2"/>
+
+                    </Grid>
+                </StackPanel>
+
+            </ListBoxItem>
+        </ListBox>
+
+        <Button x:Name="ScheduleBtn" Content="Schedule" HorizontalAlignment="Left" Width="103"  VerticalAlignment="Bottom" Grid.Row="1" Margin="0,10,0,0" IsEnabled="False" Click="ScheduleBtn_Click"/>
     </Grid>
+
+
 </UserControl>
+

@@ -301,8 +301,14 @@
     <Compile Include="Pages\Tests\PendingTestInfo1.xaml.cs">
       <DependentUpon>PendingTestInfo1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Tests\Received\ReceivedTestInfoComplete1.xaml.cs">
+      <DependentUpon>ReceivedTestInfoComplete1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Tests\Schedule\Schedule.xaml.cs">
       <DependentUpon>Schedule.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Tests\Schedule\ScheduleTestDialog.xaml.cs">
+      <DependentUpon>ScheduleTestDialog.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Tests\Schedule\ScheduleTests.xaml.cs">
       <DependentUpon>ScheduleTests.xaml</DependentUpon>
@@ -374,7 +380,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Pages\Tests\Received\ReceivedTestInfoComplete1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pages\Tests\Schedule\Schedule.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Tests\Schedule\ScheduleTestDialog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -452,11 +466,8 @@
     <Resource Include="Images\avatar.png" />
     <Resource Include="Images\logotype.png" />
     <Content Include="Images\darklogo.png" />
-
     <Resource Include="Images\nw logo.PNG" />
-
     <Resource Include="Images\logotype1.png" />
-
     <Content Include="northwest_labs_256px.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
