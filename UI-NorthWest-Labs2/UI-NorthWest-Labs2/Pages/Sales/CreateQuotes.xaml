@@ -75,11 +75,9 @@
 
 
             <!--<Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="11" Grid.Column="0" VerticalAlignment="Top" Width="75"/>-->
-            <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="18,5.6,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Top" Width="75" Click="Clear_Click" Grid.RowSpan="2" />
-            <Button x:Name="Calculate" Content="Calculate" HorizontalAlignment="left" Margin="111,5.6,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Top" Width="85" Click="Calculate_Click" Grid.RowSpan="2"/>
-
-            <TextBlock Text="Create New Sale:" VerticalAlignment="Center" Margin="0,30,0,0" FontWeight="Bold" FontSize="16" Grid.Row="9" Grid.Column="0"/>
-            <Button x:Name="CreateSale" Content="Create Sale" HorizontalAlignment="left" Margin="10,5.2,0,0" Grid.Row="10" Grid.Column="0" VerticalAlignment="Top" Width="auto" Command="NavigationCommands.GoToPage" CommandParameter="/Pages/Sales/CreateNewSale.xaml"/>
+            <!--<Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="18,5.6,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Top" Width="75" Click="Clear_Click" Grid.RowSpan="2" />-->
+            <Button x:Name="Calculate" Content="Calculate" HorizontalAlignment="left" Margin="9.6,5.6,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Top" Width="85" Click="Calculate_Click" Grid.RowSpan="2"/>
+            <Button x:Name="CreateSale" Content="Create Sale" HorizontalAlignment="left" Margin="99.6,5.6,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Top" Width="auto" Command="NavigationCommands.GoToPage" CommandParameter="/Pages/Sales/CreateNewSale.xaml" Grid.RowSpan="2"/>
 
         </Grid>
     </ScrollViewer>
