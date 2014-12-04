@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mui="http://firstfloorsoftware.com/ModernUI"
         Title="northwest labs" IsTitleVisible="True"
-                Height="600" Width="800"
+                Height="600" Width="910"
                   LogoData="m 337.98216 1213.0176 c -3.3 -0.5913 -6.32063 -1.3945 -6.7125 -1.7849 -0.39188 -0.3904 
                   -1.14618 -0.7099 -1.67624 -0.7099 -1.53982 0 -8.61288 -4.5958 -11.59656 -7.5349 -2.75917 -2.7181 -8.1397 
                   -10.5467 -8.1397 -11.8433 0 -0.3852 -0.50418 -1.667 -1.12038 -2.8485 -0.82155 -1.5753 -1.12161 -4.6911 
