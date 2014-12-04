@@ -27,7 +27,7 @@ namespace UI_NorthWest_Labs2.Pages.WorkOrders
 
         private void View_Work_Order_Click(object sender, RoutedEventArgs e)
         {
-            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/WorkOrderInfo.xaml", MainWindow.frame);
+            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/InProcess/WorkOrder1.xaml", MainWindow.frame);
         }
 
   

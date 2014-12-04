@@ -28,7 +28,7 @@ namespace UI_NorthWest_Labs2.Pages.WorkOrders
 
         private void BeginBtn_Click(object sender, RoutedEventArgs e)
         {
-            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/ViewAll.xaml", this);
+            NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/InProcess/WorkOrder1.xaml", this);
             WorkOrderUpdatedDialog d = new WorkOrderUpdatedDialog();
             d.ShowDialog();
         }
