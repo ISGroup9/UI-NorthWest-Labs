@@ -21,6 +21,7 @@
             <RowDefinition Height="Auto" MinHeight="16"/>
             <RowDefinition/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <TextBlock Text="Work Order #4009" Style="{StaticResource Heading2}" Grid.ColumnSpan="2" />
@@ -46,7 +47,8 @@
         <TextBlock Text="November 30, 2014" Grid.Row="6" Grid.Column="1" Margin="10,0,0,0" />
         <TextBlock Text="30906" Grid.Row="2" Grid.Column="1" Margin="10,0,0,0" />
         <TextBlock Text="Customer #:" Grid.Row="2" />
-        <Button  Command="NavigationCommands.GoToPage" CommandParameter="/Pages/WorkOrders/AdditionalTest/AdditionalTests.xaml" Content="Request Additional Tests" HorizontalAlignment="Left" Margin="0,10" Grid.Row="8" VerticalAlignment="Bottom" Width="194" Grid.ColumnSpan="2"/>
+        <Button  Command="NavigationCommands.GoToPage" CommandParameter="/Pages/WorkOrders/AdditionalTest/AdditionalTests.xaml" Content="Request Additional Tests" HorizontalAlignment="Left" Margin="0,10" Grid.Row="9" VerticalAlignment="Bottom" Width="194" Grid.ColumnSpan="2"/>
+        <Button x:Name="CreateBtn" Content="Generate Report" Grid.Row="8" Click="CreateBtn_Click" Grid.ColumnSpan="2" Margin="0,10,0,0"  VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="140"/>
 
     </Grid>
 </UserControl>
