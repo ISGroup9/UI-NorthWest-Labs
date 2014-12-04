@@ -460,20 +460,18 @@
     <None Include="PDF\ProfReport.pdf" />
     <None Include="PDF\SalesReport.pdf" />
     <None Include="PDF\SampleCatalog.pdf" />
+    <None Include="PDF\SummaryReport.pdf" />
+    <None Include="PDF\TestDataReport.pdf" />
     <None Include="PDF\WorkOrder.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\avatar.png" />
     <Resource Include="Images\logotype.png" />
     <Content Include="Images\darklogo.png" />
-
     <Resource Include="Images\nw logo.PNG" />
     <Resource Include="Images\logotype1.png" />
-
     <Content Include="Images\logotype2.png" />
-  
     <Content Include="Images\trackinginfo.PNG" />
-
     <Content Include="northwest_labs_256px.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
