@@ -18,7 +18,7 @@
             <TextBlock Text="Test #1 (Pharmascreen) - Complete" Style="{StaticResource Heading2}" />
             <Button Content="Download Results" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="137" Height="26" Click="Button_Click"/>
             <TextBlock  TextWrapping="Wrap" Text="Price:&#x9;$392.55" VerticalAlignment="Top" Grid.Row="1" />
-
+          
         </Grid>
     </ScrollViewer>
 
