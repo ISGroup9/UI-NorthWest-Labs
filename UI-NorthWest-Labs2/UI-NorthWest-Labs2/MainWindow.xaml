@@ -49,8 +49,7 @@
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="catalogs">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Protocol Notebook" Source="/Pages/Catalogs/ProtocolNotebook.xaml"/>
-                <mui:Link DisplayName="PHARMACOLOGY SERVICES CATALOG" Source="/Pages/Catalogs/PharmacologyServicesCatalog.xaml"/>
+                <mui:Link DisplayName="Reports" Source="/Pages/Catalogs/CatalogReports.xaml"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="settings" GroupKey="settings">
