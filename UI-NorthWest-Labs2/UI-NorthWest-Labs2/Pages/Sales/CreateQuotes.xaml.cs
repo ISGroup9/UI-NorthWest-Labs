@@ -56,7 +56,7 @@ namespace UI_NorthWest_Labs2.Pages.Pricing
             double weightone = Convert.ToDouble(w.Text);
             double weighttwo = Convert.ToDouble(molw.Text);
 
-            double calculation = weightone * weighttwo * 3; 
+            double calculation = weightone * weighttwo * 3.1495; 
 
             string pricecalculation = "$" + calculation.ToString ("#,###.00");;
 
