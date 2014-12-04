@@ -1,0 +1,28 @@
+﻿<mui:ModernDialog x:Class="UI_NorthWest_Labs2.Pages.Tests.Confirmations.CompleteTest"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                  xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+                  mc:Ignorable="d" 
+                  d:DesignHeight="300" d:DesignWidth="300"
+                  Title="Complete Test #1 (Pharmascreen) ">
+
+    <!-- Note: ModernDialog buttons are defined in the constructor of the code behind class -->
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Are you sure you want to mark this test as complete?" Grid.Row="2" Grid.ColumnSpan="2" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" ><Run Text="Update Price:"/><LineBreak/><Run Text="(If Necessary)"/></TextBlock>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10 ,5,0,5" TextWrapping="Wrap" Text="$392.55" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+
+</mui:ModernDialog>

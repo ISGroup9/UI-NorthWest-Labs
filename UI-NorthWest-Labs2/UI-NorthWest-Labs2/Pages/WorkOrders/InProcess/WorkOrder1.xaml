@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="UI_NorthWest_Labs2.Pages.WorkOrders.InProcess.WorkOrder1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Style="{StaticResource ContentRoot}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" MinHeight="15"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" MinHeight="16"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" MinHeight="16"/>
+            <RowDefinition Height="Auto" MinHeight="16"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Work Order #4009" Style="{StaticResource Heading2}" Grid.ColumnSpan="2" />
+        <TextBlock Text="Seattle Pharmaceuticals, Inc." Grid.Row="1" Grid.Column="1" Margin="10,0,0,0" />
+        <TextBlock Text="93 S Jackson St #315 Seattle, WA 98104-2818" Grid.Row="3" Grid.Column="1" Margin="10,0,0,0" />
+
+
+        <!-- TODO: set @SelectedSource -->
+        <mui:ModernTab SelectedSource="/Pages/Tests/PendingTestInfo1.xaml#1" Layout="List" Margin="0,10,0,0" Grid.Row="7" Grid.ColumnSpan="2">
+            <mui:ModernTab.Links>
+                <!-- TODO: set @Source -->
+                <mui:Link DisplayName="Test 1" Source="/Pages/Tests/PendingTestInfo1.xaml#1"/>
+                <mui:Link DisplayName="Test 2" Source="/Pages/Tests/CompletedTestInfo2.xaml#2"/>
+            </mui:ModernTab.Links>
+        </mui:ModernTab>
+        <TextBlock Text="Company Name:" Grid.Row="1" />
+        <TextBlock Text="Address:" Grid.Row="3" />
+        <TextBlock Text="Phone:" Grid.Row="4" />
+        <TextBlock Text="801-465-0426" Grid.Row="4" Grid.Column="1" Margin="10,0,0,0" />
+        <TextBlock Text="Sale Date:" Grid.Row="5" />
+        <TextBlock Text="November 1, 2014" Grid.Row="5" Grid.Column="1" Margin="10,0,0,0" />
+        <TextBlock Text="Due Date:" Grid.Row="6" />
+        <TextBlock Text="November 30, 2014" Grid.Row="6" Grid.Column="1" Margin="10,0,0,0" />
+        <TextBlock Text="30906" Grid.Row="2" Grid.Column="1" Margin="10,0,0,0" />
+        <TextBlock Text="Customer #:" Grid.Row="2" />
+
+    </Grid>
+</UserControl>
