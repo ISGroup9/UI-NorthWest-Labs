@@ -17,12 +17,12 @@ namespace UI_NorthWest_Labs2.Pages.Pricing.UpdatePricing
     /// </summary>
     public partial class UpdateConfirmation : ModernDialog
     {
-        public UpdateConfirmation()
+        public UpdateConfirmation(string pricechange)
         {
             InitializeComponent();
             this.Buttons = new Button[] { this.OkButton };
 
-
+            UpdatePrice.Text = pricechange;
         }
     }
 }
