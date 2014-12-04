@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="600">
     <ScrollViewer>
-        <Grid Style="{StaticResource ContentRoot}">
+        <Grid Style="{StaticResource ContentRoot}" Margin="0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition/>
@@ -35,11 +35,11 @@
             <TextBox x:Name="w" Text="22.0954" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0" Width="120" HorizontalAlignment="Left"/>
             <TextBlock Text="oz" Grid.Row="2" Grid.Column="2" HorizontalAlignment="left" Margin="130,0,0,0"/>
 
-            <TextBlock Text="Total Price Estimate:" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Grid.Row="7" Grid.Column="0"/>
-            <TextBlock x:Name="totalprice" Text="$3094.55" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Grid.Row="7" Grid.Column="1" Margin="5,0,0,0" Visibility="Hidden"/>
+            <TextBlock Text="Price Estimate:" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Grid.Row="7" Grid.Column="0" Margin="0,30,0,0"/>
+            <TextBlock x:Name="totalprice" Text="$3094.55" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Grid.Row="7" Grid.Column="1"  Visibility="Hidden" Margin="10,30,0,0"/>
 
             <StackPanel Grid.Row="5" Grid.ColumnSpan="2"  x:Name="Tests" HorizontalAlignment="Left">
-                <Grid x:Name="testgrid" Margin="0,10,0,0" Height="129" Width="330">
+                <Grid x:Name="testgrid" Margin="0,10,0,0" Height="140" Width="330">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
@@ -49,7 +49,7 @@
                         <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <ComboBox x:Name="cbTest" HorizontalAlignment="Left" Margin="10,0,0,0" Width="190" Grid.Column="1" >
+                    <ComboBox x:Name="cbTest" SelectedIndex="3" HorizontalAlignment="Left" Margin="10,0,0,0" Width="190" Grid.Column="1" >
                         <ListBoxItem Content="Biochemical Pharmacology"/>
                         <ListBoxItem Content="DiscoveryScreen"/>
                         <ListBoxItem Content="ImmunoScreen"/>
@@ -59,13 +59,13 @@
                     </ComboBox>
                     <TextBlock TextWrapping="Wrap" Text="Test Type:" VerticalAlignment="Center"/>
                     <TextBlock TextWrapping="Wrap" Text="Notes:"  Grid.Row="1" Margin="0,10,0,0"  />
-                    <TextBox Grid.Column="1" HorizontalAlignment="Left"   Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Margin="10,10,0,0" Height="76" />
-                    <TextBlock TextWrapping="Wrap" Text="Price:" VerticalAlignment="Top" Grid.Row="2"/>
-                    <TextBlock TextWrapping="Wrap" Text="$45.69" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1" Margin="10,0,214,0" Visibility="Hidden"/>
+                    <TextBox x:Name="description" Grid.Column="1" HorizontalAlignment="Left" Text="Evaluate proficiency testing results reported by the proficiency testing program and take steps to investigate and correct disparate results."  Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Margin="10,10,0,0" Height="76" />
+                    <TextBlock TextWrapping="Wrap" Text="Test Price:" VerticalAlignment="Top" Grid.Row="2" Margin="0,8,0,0"/>
+                    <TextBlock x:Name="Price" TextWrapping="Wrap" Text="$145.69" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1" Margin="10,8,214,0"/>
                 </Grid>
             </StackPanel>
             <Grid Grid.Row="6" Grid.ColumnSpan="2">
-                <Button Content="Add Another" Width="116" Margin="0,10,0,0" Click="Button_Click" HorizontalAlignment="Left"/>
+                <Button Content="Add Test" Width="auto" Margin="0,10,0,0" Click="Button_Click" HorizontalAlignment="Left"/>
                 <Button x:Name="RemoveBtn" Content="Remove" Width="116" Margin="121,10,0,0" Click="RemoveButton_Click" HorizontalAlignment="Left" Visibility="Hidden"/>
             </Grid>
 
@@ -75,11 +75,11 @@
 
 
             <!--<Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="11" Grid.Column="0" VerticalAlignment="Top" Width="75"/>-->
-            <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="8" Grid.Column="0" VerticalAlignment="Top" Width="75" Click="Clear_Click" />
-            <Button x:Name="Calculate" Content="Calculate" HorizontalAlignment="left" Margin="110,10,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Top" Width="85" Click="Calculate_Click"/>
+            <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="18,5.6,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Top" Width="75" Click="Clear_Click" Grid.RowSpan="2" />
+            <Button x:Name="Calculate" Content="Calculate" HorizontalAlignment="left" Margin="111,5.6,0,0" Grid.Row="8" Grid.Column="1" VerticalAlignment="Top" Width="85" Click="Calculate_Click" Grid.RowSpan="2"/>
 
             <TextBlock Text="Create New Sale:" VerticalAlignment="Center" Margin="0,30,0,0" FontWeight="Bold" FontSize="16" Grid.Row="9" Grid.Column="0"/>
-            <Button x:Name="CreateSale" Content="Create Sale" HorizontalAlignment="left" Margin="28,10,0,0" Grid.Row="10" Grid.Column="0" VerticalAlignment="Top" Width="auto" Command="NavigationCommands.GoToPage" CommandParameter="/Pages/Sales/CreateNewSale.xaml"/>
+            <Button x:Name="CreateSale" Content="Create Sale" HorizontalAlignment="left" Margin="10,5.2,0,0" Grid.Row="10" Grid.Column="0" VerticalAlignment="Top" Width="auto" Command="NavigationCommands.GoToPage" CommandParameter="/Pages/Sales/CreateNewSale.xaml"/>
 
         </Grid>
     </ScrollViewer>

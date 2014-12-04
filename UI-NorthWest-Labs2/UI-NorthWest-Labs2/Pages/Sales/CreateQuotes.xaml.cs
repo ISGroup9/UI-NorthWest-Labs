@@ -69,6 +69,9 @@ namespace UI_NorthWest_Labs2.Pages.Pricing
             totalprice.Visibility = System.Windows.Visibility.Hidden;
             w.Text = "";
             molw.Text = "";
+            description.Text = "";
+            Price.Text = "";
+            cbTest.SelectedIndex = -1;
         }
 
        
