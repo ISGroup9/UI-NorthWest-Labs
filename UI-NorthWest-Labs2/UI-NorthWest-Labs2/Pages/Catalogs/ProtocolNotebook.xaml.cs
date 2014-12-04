@@ -34,6 +34,8 @@ namespace UI_NorthWest_Labs2.Pages.Catalogs
             openFileDialog1.FilterIndex = 2;
             openFileDialog1.RestoreDirectory = true;
             openFileDialog1.ShowDialog();
+
+            //MessageBox("File Uploaded Successfully");
         }
 
         private void DownloadProtocol_Click(object sender, RoutedEventArgs e)
