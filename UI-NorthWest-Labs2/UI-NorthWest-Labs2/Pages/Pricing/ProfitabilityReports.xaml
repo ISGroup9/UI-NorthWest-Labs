@@ -11,8 +11,7 @@
         <mui:ModernTab Layout="List">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Item 1" />
-                <mui:Link DisplayName="Item 2" />
+                <mui:Link DisplayName="Profitability Report" Source="/Pages/Pricing/Report/ProfReport.xaml"/>
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>

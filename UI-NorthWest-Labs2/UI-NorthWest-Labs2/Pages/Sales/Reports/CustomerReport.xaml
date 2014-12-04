@@ -37,11 +37,11 @@
                 <ComboBoxItem Content="Seahorse Bio" HorizontalAlignment="Left" Width="140"/>
                 <ComboBoxItem Content="EndoGastric Solutions" HorizontalAlignment="Left" Width="140"/>
             </ComboBox>
-            
-            <DatePicker Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="10,4,0,4" VerticalAlignment="Center"/>
+
+            <DatePicker SelectedDate="1/1/2014" SelectedDateFormat="Short" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="10,4,0,4" VerticalAlignment="Center"/>
             <TextBlock  Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="Start Date:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
 
-            <DatePicker Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Margin="10,4,0,4" VerticalAlignment="Center"/>
+            <DatePicker SelectedDate="12/6/2014" SelectedDateFormat="Short" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Margin="10,4,0,4" VerticalAlignment="Center"/>
             <TextBlock  Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="End Date:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
 
             <Button x:Name="CreateBtn" Content="Generate" Grid.Row="11" Grid.Column="1" Margin="10,4,0,4" HorizontalAlignment="Left" VerticalAlignment="Center" Width="auto" Click="CreateBtn_Click"/>

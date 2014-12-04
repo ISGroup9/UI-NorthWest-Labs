@@ -24,5 +24,6 @@ namespace UI_NorthWest_Labs2.Pages.Pricing
         {
             InitializeComponent();
         }
+
     }
 }

@@ -13,24 +13,22 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-
-namespace UI_NorthWest_Labs2.Pages.Sales.Reports
+namespace UI_NorthWest_Labs2.Pages.Pricing.Report
 {
     /// <summary>
-    /// Interaction logic for CustomerReport.xaml
+    /// Interaction logic for ProfReport.xaml
     /// </summary>
-    public partial class CustomerReport : UserControl
+    public partial class ProfReport : UserControl
     {
-        public CustomerReport()
+        public ProfReport()
         {
             InitializeComponent();
         }
-
         private void CreateBtn_Click(object sender, RoutedEventArgs e)
         {
             //set pdf name here
-            string pdfname = "CustomerReport";
-            
+            string pdfname = "ProfReport";
+
             //add PDF folder and .pdf to filename
             string fullname = "\\PDF\\" + pdfname + ".pdf";
 
@@ -38,7 +36,7 @@ namespace UI_NorthWest_Labs2.Pages.Sales.Reports
             string filepath = AppDomain.CurrentDomain.BaseDirectory;
 
             //remove 'bin' and 'debug' folder
-            filepath = filepath.Remove(filepath.Length-10);
+            filepath = filepath.Remove(filepath.Length - 10);
 
             //open the pdf :)
             System.Diagnostics.Process.Start(filepath + fullname);

@@ -130,6 +130,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Pricing\Report\ProfReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Pricing\UpdatePricing\UpdateConfirmation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -206,6 +210,9 @@
     </Compile>
     <Compile Include="Pages\LoginDialog\LoginDialog.xaml.cs">
       <DependentUpon>LoginDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pricing\Report\ProfReport.xaml.cs">
+      <DependentUpon>ProfReport.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Pricing\UpdatePricing\UpdateConfirmation.xaml.cs">
       <DependentUpon>UpdateConfirmation.xaml</DependentUpon>
@@ -386,9 +393,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <EmbeddedResource Include="Pages\Catalogs\SampleCatalog.pdf" />
-    <None Include="PDF\campusmap.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="PDF\CustomerReport.pdf" />
+    <None Include="PDF\ProfReport.pdf" />
+    <None Include="PDF\SalesReport.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\avatar.png" />
