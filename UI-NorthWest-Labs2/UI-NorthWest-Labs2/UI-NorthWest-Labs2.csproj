@@ -147,6 +147,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Sales\Reports\CustomerReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Sales\Reports\PerformanceReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Sales\SaleLookup.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -209,6 +217,12 @@
     </Compile>
     <Compile Include="Pages\Sales\CreateNewSale.xaml.cs">
       <DependentUpon>CreateNewSale.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sales\Reports\CustomerReport.xaml.cs">
+      <DependentUpon>CustomerReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Sales\Reports\PerformanceReport.xaml.cs">
+      <DependentUpon>PerformanceReport.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Sales\SaleLookup.xaml.cs">
       <DependentUpon>SaleLookup.xaml</DependentUpon>
@@ -360,6 +374,7 @@
     </Content>
     <SplashScreen Include="Images\SplashScreen.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
