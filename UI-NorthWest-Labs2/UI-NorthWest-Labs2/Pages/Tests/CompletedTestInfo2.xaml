@@ -16,7 +16,7 @@
             </Grid.RowDefinitions>
 
             <TextBlock Text="Test #2 (Pharmascreen) - Pending Results" Style="{StaticResource Heading2}" />
-            <Button Content="Upload Results" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="137" Height="26"/>
+            <Button Content="Upload Results" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="137" Height="26" Click="Button_Click"/>
             <TextBlock  TextWrapping="Wrap" Text="Price:&#x9;$425.32" VerticalAlignment="Top" Grid.Row="1" />
 
         </Grid>
