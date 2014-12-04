@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI_NorthWest_Labs2.Pages.WorkOrders
+namespace UI_NorthWest_Labs2.Pages.Tests.Schedule
 {
     /// <summary>
-    /// Interaction logic for Schedule.xaml
+    /// Interaction logic for ViewSchedule.xaml
     /// </summary>
-    public partial class Schedule : UserControl
+    public partial class ViewSchedule : UserControl
     {
-        public Schedule()
+        public ViewSchedule()
         {
             InitializeComponent();
         }
