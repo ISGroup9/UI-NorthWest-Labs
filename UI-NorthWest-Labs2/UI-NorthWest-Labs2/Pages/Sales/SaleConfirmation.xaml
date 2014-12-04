@@ -5,9 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              Title ="Sale Created"
-             mc:Ignorable="d" HorizontalAlignment="Left" VerticalAlignment="Top">
-    <Grid Style="{StaticResource ContentRoot}">
-        <ScrollViewer HorizontalAlignment="Left" VerticalAlignment="Top">
+             mc:Ignorable="d" HorizontalAlignment="Left" VerticalAlignment="Top" WindowStartupLocation="CenterScreen" Height="459.2" Width="468.8">
+    <Grid Style="{StaticResource ContentRoot}" Margin="16,34,16,1.6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="122*"/>
+            <ColumnDefinition Width="93*"/>
+        </Grid.ColumnDefinitions>
+        <ScrollViewer HorizontalAlignment="Left" VerticalAlignment="Top" Height="373" Width="458" Margin="0,-29,-27.6,0" Grid.ColumnSpan="2">
             <Grid Style="{StaticResource ContentRoot}">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
