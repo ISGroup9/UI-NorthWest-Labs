@@ -30,7 +30,7 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <TextBlock HorizontalAlignment="Left" Style ="{StaticResource Heading1}" TextWrapping="Wrap" Text="Welcome George McKay!" VerticalAlignment="Top" Grid.ColumnSpan="3" Margin="0,0,0,10" Width="482"/>
-                <Canvas Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="200" Margin="135,61.4,0,0" Grid.Row="13" VerticalAlignment="Top" Width="723">
+                <Canvas Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="200" Margin="38,62.4,0,0" Grid.Row="13" VerticalAlignment="Top" Width="723">
                     <Canvas.Background>
                         <ImageBrush ImageSource="/UI-NorthWest-Labs2;component/Images/logotype.png" Stretch="UniformToFill"/>
                     </Canvas.Background>
