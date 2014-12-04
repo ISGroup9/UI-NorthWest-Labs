@@ -365,6 +365,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <EmbeddedResource Include="Pages\Catalogs\SampleCatalog.pdf" />
+    <None Include="PDF\campusmap.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\avatar.png" />
