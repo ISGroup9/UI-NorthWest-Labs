@@ -8,7 +8,7 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
         <!-- TODO: set @SelectedSource -->
-        <mui:ModernTab SelectedSource="/Pages/Billing/BillingPreview1.xaml#1" Layout="List">
+        <mui:ModernTab x:Name="links" SelectedSource="/Pages/Billing/BillingPreview1.xaml" Layout="List">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
                 <mui:Link DisplayName="Work Order #3987" Source="/Pages/Billing/BillingPreview1.xaml"/>

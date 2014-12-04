@@ -29,6 +29,8 @@ namespace UI_NorthWest_Labs2.Pages.Billing
         {
             BillingConfirmation newBill = new BillingConfirmation();
             newBill.ShowDialog();
+            Billing.links1.Links.RemoveAt(0);
+            Billing.links1.SelectedSource = new Uri("/Pages/Billing/BillingPreview2.xaml",UriKind.Relative);
         }
     }
 }
