@@ -23,6 +23,9 @@ namespace UI_NorthWest_Labs2.Pages.Pricing.UpdatePricing
         public UpdatePricing()
         {
             InitializeComponent();
+            
+            Random random = new Random();
+            UpdateField.Text = "$" + string.Format("{0:0.##}", new Random().NextDouble() * 10);
         }
 
         private void UpdateBtn_Click(object sender, RoutedEventArgs e)
