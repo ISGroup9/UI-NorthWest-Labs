@@ -119,6 +119,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\LoginDialog\LoginDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Pricing\UpdatePricing\UpdateConfirmation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -185,6 +189,9 @@
     <Compile Include="Pages\Customers\CustomerLookup.xaml.cs">
       <DependentUpon>CustomerLookup.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\LoginDialog\LoginDialog.xaml.cs">
+      <DependentUpon>LoginDialog.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Pricing\UpdatePricing\UpdateConfirmation.xaml.cs">
       <DependentUpon>UpdateConfirmation.xaml</DependentUpon>
     </Compile>
@@ -220,17 +227,10 @@
       <DependentUpon>Appearance.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Settings\AppearanceViewModel.cs" />
-    <Page Include="Pages\Login.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Pages\SettingsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Compile Include="Pages\Login.xaml.cs">
-      <DependentUpon>Login.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pages\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>

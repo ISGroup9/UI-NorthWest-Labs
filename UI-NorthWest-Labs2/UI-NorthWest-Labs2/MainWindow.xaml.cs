@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using UI_NorthWest_Labs2.Pages.LoginDialog;
 
 namespace UI_NorthWest_Labs2
 {
@@ -27,8 +28,11 @@ namespace UI_NorthWest_Labs2
         public MainWindow()
 
         {
+            
             AppearanceManager.Current.ThemeSource = uri;
+            
             InitializeComponent();
+            
             
         }
         public override void OnApplyTemplate()
@@ -36,6 +40,12 @@ namespace UI_NorthWest_Labs2
             base.OnApplyTemplate();
 
             frame = (ModernFrame)GetTemplateChild("ContentFrame");
+        }
+
+        private void ModernWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            LoginDialog l = new LoginDialog();
+            l.ShowDialog();
         }
     }
 
