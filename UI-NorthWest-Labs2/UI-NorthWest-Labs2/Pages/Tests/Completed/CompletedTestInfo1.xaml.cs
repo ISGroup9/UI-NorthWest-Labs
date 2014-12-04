@@ -28,15 +28,30 @@ namespace UI_NorthWest_Labs2.Pages.Tests.Completed
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openFileDialog1 = new Microsoft.Win32.OpenFileDialog();
+            //set pdf name here
+            string pdfname = "TestDataReport";
 
-            openFileDialog1.Filter = "PDF files (*.PDF)|*.txt|All files (*.*)|*.*";
-            openFileDialog1.FilterIndex = 2;
-            openFileDialog1.RestoreDirectory = true;
-            openFileDialog1.ShowDialog();
+            //add PDF folder and .pdf to filename
+            string fullname = "\\PDF\\" + pdfname + ".pdf";
 
-            UploadConfirmation newuc = new UploadConfirmation();
-            newuc.ShowDialog();
+            //find the full filepath
+            string filepath = AppDomain.CurrentDomain.BaseDirectory;
+
+            //remove 'bin' and 'debug' folder
+            filepath = filepath.Remove(filepath.Length - 10);
+
+            //open the pdf :)
+            System.Diagnostics.Process.Start(filepath + fullname);
+
+            //OpenFileDialog openFileDialog1 = new Microsoft.Win32.OpenFileDialog();
+
+            //openFileDialog1.Filter = "PDF files (*.PDF)|*.txt|All files (*.*)|*.*";
+            //openFileDialog1.FilterIndex = 2;
+            //openFileDialog1.RestoreDirectory = true;
+            //openFileDialog1.ShowDialog();
+
+            //UploadConfirmation newuc = new UploadConfirmation();
+            //newuc.ShowDialog();
         }
     }
 }
