@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="600" d:DesignWidth="600">
     <ScrollViewer>
         <Grid Style="{StaticResource ContentRoot}">
             <Grid.ColumnDefinitions>
@@ -13,8 +13,6 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto" MinHeight="15"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto" MinHeight="16"/>
                 <RowDefinition Height="Auto"/>
@@ -29,35 +27,55 @@
             <TextBlock Text="Price Quote" Style="{StaticResource Heading2}" Grid.ColumnSpan="2" />
 
 
-            <TextBlock Text="Test Type:" Grid.Row="2" VerticalAlignment="Top" />
 
+            <TextBlock Text="Weight:" Grid.Row="2" VerticalAlignment="Center"/>
+            <TextBox Text="22" Grid.Row="2" Grid.Column="1" Margin="6,0,0,0" Width="120" HorizontalAlignment="Left"/>
+            <TextBlock Text="oz" Grid.Row="2" Grid.Column="2" HorizontalAlignment="left" Margin="130,0,0,0"/>
 
+            <TextBlock Text="Total Price Estimate:" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Grid.Row="7" Grid.Column="0"/>
+            <TextBlock x:Name="totalprice" Text="$3094.55" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Grid.Row="7" Grid.Column="1" Margin="5,0,0,0" Visibility="Hidden"/>
 
-            <TextBlock Text="Weight:" Grid.Row="4" VerticalAlignment="Center"/>
-            <TextBox Text="22" Grid.Row="4" Grid.Column="1" Margin="6,0,0,0" Width="120" HorizontalAlignment="Left"/>
-            <TextBlock Text="oz" Grid.Row="4" Grid.Column="2" HorizontalAlignment="left" Margin="130,0,0,0"/>
+            <StackPanel Grid.Row="5" Grid.ColumnSpan="2"  x:Name="Tests" HorizontalAlignment="Left">
+                <Grid x:Name="testgrid" Margin="0,10,0,0" Height="129" Width="330">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="80"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ComboBox x:Name="cbTest" HorizontalAlignment="Left" Margin="10,0,0,0" Width="190" Grid.Column="1" >
+                        <ListBoxItem Content="Biochemical Pharmacology"/>
+                        <ListBoxItem Content="DiscoveryScreen"/>
+                        <ListBoxItem Content="ImmunoScreen"/>
+                        <ListBoxItem Content="ProfilingScreen"/>
+                        <ListBoxItem Content="PharmaScreen"/>
+                        <ListBoxItem Content="CustomScreen"/>
+                    </ComboBox>
+                    <TextBlock TextWrapping="Wrap" Text="Test Type:" VerticalAlignment="Center"/>
+                    <TextBlock TextWrapping="Wrap" Text="Notes:"  Grid.Row="1" Margin="0,10,0,0"  />
+                    <TextBox Grid.Column="1" HorizontalAlignment="Left"   Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Margin="10,10,0,0" Height="76" />
+                    <TextBlock TextWrapping="Wrap" Text="Price:" VerticalAlignment="Top" Grid.Row="2"/>
+                    <TextBlock TextWrapping="Wrap" Text="$45.69" VerticalAlignment="Top" Grid.Row="2" Grid.Column="1" Margin="10,0,214,0" Visibility="Hidden"/>
+                </Grid>
+            </StackPanel>
+            <Grid Grid.Row="6" Grid.ColumnSpan="2">
+                <Button Content="Add Another" Width="116" Margin="0,10,0,0" Click="Button_Click" HorizontalAlignment="Left"/>
+                <Button x:Name="RemoveBtn" Content="Remove" Width="116" Margin="121,10,0,0" Click="RemoveButton_Click" HorizontalAlignment="Left" Visibility="Hidden"/>
+            </Grid>
 
-            <TextBlock Text="Price Estimate:" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Grid.Row="8" Grid.Column="0"/>
-            <TextBlock Text="$463.55" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Grid.Row="8" Grid.Column="1" Margin="5,0,0,0"/>
-
-
-            <TextBlock Text="Molecular Weight:" Grid.Row="6" VerticalAlignment="Center"/>
-            <TextBox Text="57.3485" Grid.Row="6" Grid.Column="1" Margin="6,0,0,0" Width="120" HorizontalAlignment="Left"/>
-            <TextBlock Text="g/mol" Grid.Row="6" Grid.Column="2" HorizontalAlignment="left" Margin="130,0,0,0"/>
+            <TextBlock Text="Molecular Weight:" Grid.Row="4" VerticalAlignment="Center"/>
+            <TextBox Text="57.3485" Grid.Row="4" Grid.Column="1" Margin="6,0,0,0" Width="120" HorizontalAlignment="Left"/>
+            <TextBlock Text="g/mol" Grid.Row="4" Grid.Column="2" HorizontalAlignment="left" Margin="130,0,0,0"/>
 
 
             <!--<Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="11" Grid.Column="0" VerticalAlignment="Top" Width="75"/>-->
-            <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="11" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="Calculate" Content="Calculate" HorizontalAlignment="left" Margin="110,10,0,0" Grid.Row="11" Grid.Column="1" VerticalAlignment="Top" Width="85"/>
+            <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="10" Grid.Column="0" VerticalAlignment="Top" Width="75"/>
+            <Button x:Name="Calculate" Content="Calculate" HorizontalAlignment="left" Margin="110,10,0,0" Grid.Row="10" Grid.Column="1" VerticalAlignment="Top" Width="85" Click="Calculate_Click"/>
 
-            <ComboBox x:Name="cbTest" Grid.Column="1" HorizontalAlignment="Left" Margin="6,0,0,6" Grid.Row="2" Width="190" >
-                <ListBoxItem Content="Biochemical Pharmacology"/>
-                <ListBoxItem Content="Discovery Screen"/>
-                <ListBoxItem Content="Immuno Screen"/>
-                <ListBoxItem Content="Profiling Screen"/>
-                <ListBoxItem Content="Pharma Screen"/>
-                <ListBoxItem Content="Custom Screen"/>
-            </ComboBox>
+
         </Grid>
     </ScrollViewer>
 
