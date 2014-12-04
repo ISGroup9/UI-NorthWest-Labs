@@ -22,15 +22,15 @@
                         </Grid.ColumnDefinitions>
                         <ComboBox x:Name="cbTest" HorizontalAlignment="Left" Margin="10,0,0,0" Width="190" Grid.Column="1" >
                             <ListBoxItem Content="Biochemical Pharmacology"/>
-                            <ListBoxItem Content="Discovery Screen"/>
-                            <ListBoxItem Content="Immuno Screen"/>
-                            <ListBoxItem Content="Profiling Screen"/>
-                            <ListBoxItem Content="Pharma Screen"/>
-                            <ListBoxItem Content="Custom Screen"/>
+                            <ListBoxItem Content="DiscoveryScreen"/>
+                            <ListBoxItem Content="ImmunoScreen"/>
+                            <ListBoxItem Content="ProfilingScreen"/>
+                            <ListBoxItem Content="PharmaScreen"/>
+                            <ListBoxItem Content="CustomScreen"/>
                         </ComboBox>
                         <TextBlock TextWrapping="Wrap" Text="Test Type:" VerticalAlignment="Center"/>
                         <TextBlock TextWrapping="Wrap" Text="Notes:"  Grid.Row="1" Margin="0,10,0,0"  />
-                        <TextBox Grid.Column="1" HorizontalAlignment="Left"   Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="250" Margin="10,10,0,0" Height="76" />
+                        <TextBox Grid.Column="1" HorizontalAlignment="Left"   Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Margin="10,10,0,0" Height="76" />
                     </Grid>
                 </StackPanel>
                 <Grid>
