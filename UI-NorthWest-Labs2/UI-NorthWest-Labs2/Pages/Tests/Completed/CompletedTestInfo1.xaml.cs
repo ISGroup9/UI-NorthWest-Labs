@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI_NorthWest_Labs2.Pages.Tests
+namespace UI_NorthWest_Labs2.Pages.Tests.Completed
 {
     /// <summary>
     /// Interaction logic for TestInfo.xaml
@@ -37,7 +37,6 @@ namespace UI_NorthWest_Labs2.Pages.Tests
 
             UploadConfirmation newuc = new UploadConfirmation();
             newuc.ShowDialog();
-            NavigationCommands.GoToPage.Execute("/Pages/Tests/Completed/CompletedTestInfo1.xaml", this);
         }
     }
 }

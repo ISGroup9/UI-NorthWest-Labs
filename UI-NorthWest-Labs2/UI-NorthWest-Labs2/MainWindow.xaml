@@ -173,7 +173,7 @@
         
         <mui:LinkGroup DisplayName="work orders">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="Schedule" Source="/Pages/WorkOrders/Schedule.xaml"/>
+                <mui:Link DisplayName="Schedule" Source="/Pages/Tests/Schedule/Schedule.xaml"/>
                 <mui:Link DisplayName="Lookup"  Source="/Pages/WorkOrders/WorkOrderLookup.xaml"/>
                 <mui:Link DisplayName="View All" Source="/Pages/WorkOrders/ViewAll.xaml"/>
             </mui:LinkGroup.Links>

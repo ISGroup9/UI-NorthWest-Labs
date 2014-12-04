@@ -26,7 +26,7 @@ namespace UI_NorthWest_Labs2.Pages.Tests
             InitializeComponent();
 
             // define the dialog buttons
-            this.Buttons = new Button[] { this.OkButton, this.CancelButton };
+            this.Buttons = new Button[] { this.OkButton };
         }
     }
 }

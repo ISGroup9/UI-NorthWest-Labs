@@ -8,11 +8,11 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
         <!-- TODO: set @SelectedSource -->
-        <mui:ModernTab SelectedSource="/Pages/Tests/ViewSchedule.xaml" Layout="Tab">
+        <mui:ModernTab SelectedSource="/Pages/Tests/Schedule/ViewSchedule.xaml" Layout="Tab">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="View Schedule" Source="/Pages/Tests/ViewSchedule.xaml"/>
-                <mui:Link DisplayName="Schedule Tests" Source="/Pages/Tests/ScheduleTests.xaml"/>
+                <mui:Link DisplayName="View Schedule" Source="/Pages/Tests/Schedule/ViewSchedule.xaml"/>
+                <mui:Link DisplayName="Schedule Tests" Source="/Pages/Tests/Schedule/ScheduleTests.xaml"/>
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>

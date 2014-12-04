@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="UI_NorthWest_Labs2.Pages.Tests.PendingTestInfo1"
+﻿<UserControl x:Class="UI_NorthWest_Labs2.Pages.Tests.Completed.CompletedTestInfo1"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -11,13 +11,12 @@
         <Grid Style="{StaticResource ContentRoot}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Test #1 (Pharmascreen) - Recieved" Style="{StaticResource Heading2}" />
-            <Button x:Name="Complete_Button" Content="Complete" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="93" Height="26" Click="Complete_Button_Click"/>
-            <Button Content="Rerun Required" HorizontalAlignment="Left" Margin="98,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="137" Height="26"/>
+            <TextBlock Text="Test #1 (Pharmascreen) - Complete" Style="{StaticResource Heading2}" />
+            <Button Content="Download Results" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="137" Height="26" Click="Button_Click"/>
             <TextBlock  TextWrapping="Wrap" Text="Price:&#x9;$392.55" VerticalAlignment="Top" Grid.Row="1" />
 
         </Grid>

@@ -37,6 +37,7 @@ namespace UI_NorthWest_Labs2.Pages.Tests
 
             UploadConfirmation newuc = new UploadConfirmation();
             newuc.ShowDialog();
+            NavigationCommands.GoToPage.Execute("/Pages/Tests/Completed/CompletedTestInfo1.xaml", this);
         }
     }
 }
