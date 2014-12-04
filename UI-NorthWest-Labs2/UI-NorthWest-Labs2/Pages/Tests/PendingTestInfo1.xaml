@@ -19,6 +19,7 @@
             <Button x:Name="Complete_Button" Content="Complete" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="93" Height="26" Click="Complete_Button_Click"/>
             <Button Content="Rerun Required" HorizontalAlignment="Left" Margin="98,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="137" Height="26"/>
             <TextBlock  TextWrapping="Wrap" Text="Price:&#x9;$392.55" VerticalAlignment="Top" Grid.Row="1" />
+            <Button x:Name="Schedule" Content="Schedule" HorizontalAlignment="Left" Margin="0,41,0,0" Grid.Row="2" VerticalAlignment="Top" Width="93" Height="26" Click="Complete_Button_Click"/>
 
         </Grid>
     </ScrollViewer>

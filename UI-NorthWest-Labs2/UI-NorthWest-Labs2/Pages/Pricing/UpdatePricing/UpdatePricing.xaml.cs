@@ -30,7 +30,7 @@ namespace UI_NorthWest_Labs2.Pages.Pricing.UpdatePricing
 
         private void UpdateBtn_Click(object sender, RoutedEventArgs e)
         {
-            NavigationCommands.BrowseBack.Execute(null, MainWindow.frame);
+           
             string pricechange = UpdateField.Text;
             UpdateConfirmation uc = new UpdateConfirmation(pricechange);
             uc.ShowDialog();
