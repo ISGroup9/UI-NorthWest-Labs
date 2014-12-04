@@ -64,15 +64,15 @@ namespace UI_NorthWest_Labs2.Pages.Pricing
             totalprice.Visibility = System.Windows.Visibility.Visible;
         }
 
-        private void Clear_Click(object sender, RoutedEventArgs e)
-        {
-            totalprice.Visibility = System.Windows.Visibility.Hidden;
-            w.Text = "";
-            molw.Text = "";
-            description.Text = "";
-            Price.Text = "";
-            cbTest.SelectedIndex = -1;
-        }
+        //private void Clear_Click(object sender, RoutedEventArgs e)
+        //{
+        //    totalprice.Visibility = System.Windows.Visibility.Hidden;
+        //    w.Text = "";
+        //    molw.Text = "";
+        //    description.Text = "";
+        //    Price.Text = "";
+        //    cbTest.SelectedIndex = -1;
+        //}
 
        
     }
