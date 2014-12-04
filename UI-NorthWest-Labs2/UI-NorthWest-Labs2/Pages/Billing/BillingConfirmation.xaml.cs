@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstFloor.ModernUI.Windows.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,24 +13,20 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using UI_NorthWest_Labs2.Pages.Billing;
 
-namespace UI_NorthWest_Labs2.Pages
+namespace UI_NorthWest_Labs2.Pages.Billing
 {
     /// <summary>
-    /// Interaction logic for BillingPreview3.xaml
+    /// Interaction logic for BillingConfirmation.xaml
     /// </summary>
-    public partial class BillingPreview3 : UserControl
+    public partial class BillingConfirmation : ModernDialog
     {
-        public BillingPreview3()
+        public BillingConfirmation()
         {
             InitializeComponent();
-        }
 
-        private void ApplyDiscountandBill_Click(object sender, RoutedEventArgs e)
-        {
-            BillingConfirmation newBill = new BillingConfirmation();
-            newBill.ShowDialog();
+            // define the dialog buttons
+            this.Buttons = new Button[] { this.OkButton, this.CancelButton };
         }
     }
 }
