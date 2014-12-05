@@ -512,7 +512,7 @@
     <Content Include="Images\darklogo.png" />
     <Resource Include="Images\nw logo.PNG" />
     <Resource Include="Images\logotype1.png" />
-    <Content Include="Images\logotype2.png" />
+    <Resource Include="Images\logotype2.png" />
     <Content Include="Images\trackinginfo.PNG" />
     <Content Include="northwest_labs_256px.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
