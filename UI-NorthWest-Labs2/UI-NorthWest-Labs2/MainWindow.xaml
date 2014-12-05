@@ -153,7 +153,7 @@
             <mui:LinkGroup.Links>
                 <mui:Link DisplayName="Create Quotes" Source="/Pages/Sales/CreateQuotes.xaml"/>
                 <mui:Link DisplayName="Lookup" Source="/Pages/Sales/SaleLookup.xaml"/>
-                <mui:Link DisplayName="Reports" Source="/Pages/Sales/SalesReports.xaml"/>
+                <mui:Link DisplayName="Performance Report" Source="/Pages/Sales/Reports/PerformanceReport.xaml"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         
@@ -166,8 +166,9 @@
         
         <mui:LinkGroup DisplayName="customers">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="New Customer" Source="/Pages/Customers/NewCustomer.xaml"/>
+                <mui:Link DisplayName="New" Source="/Pages/Customers/NewCustomer.xaml"/>
                 <mui:Link DisplayName="Lookup" Source="/Pages/Customers/CustomerLookup.xaml"/>
+                <mui:Link DisplayName="Report" Source="/Pages/Sales/Reports/CustomerReport.xaml"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         
