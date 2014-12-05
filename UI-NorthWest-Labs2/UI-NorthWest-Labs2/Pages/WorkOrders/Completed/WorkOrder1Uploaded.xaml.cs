@@ -47,16 +47,20 @@ namespace UI_NorthWest_Labs2.Pages.WorkOrders.Completed
 
         private void Download_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog openFileDialog1 = new Microsoft.Win32.OpenFileDialog();
-            openFileDialog1.Filter = "PDF files (*.PDF)|*.txt|All files (*.*)|*.*";
-            openFileDialog1.FilterIndex = 2;
-            string filepath = AppDomain.CurrentDomain.BaseDirectory;
-            filepath = filepath.Remove(filepath.Length - 10);
-            openFileDialog1.InitialDirectory = filepath + "PDF";
-            openFileDialog1.ShowDialog();
+            //set pdf name here
+            string pdfname = "SummaryReport";
 
-            FileUploaded f = new FileUploaded();
-            f.ShowDialog();
+            //add PDF folder and .pdf to filename
+            string fullname = "\\PDF\\" + pdfname + ".pdf";
+
+            //find the full filepath
+            string filepath = AppDomain.CurrentDomain.BaseDirectory;
+
+            //remove 'bin' and 'debug' folder
+            filepath = filepath.Remove(filepath.Length - 10);
+
+            //open the pdf :)
+            System.Diagnostics.Process.Start(filepath + fullname);​​
         }
     }
 }
