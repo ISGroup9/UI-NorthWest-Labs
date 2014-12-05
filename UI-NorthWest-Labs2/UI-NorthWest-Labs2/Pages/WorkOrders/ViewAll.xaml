@@ -15,7 +15,7 @@
                 <mui:Link DisplayName="In Process" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml#2" />
                 <mui:Link DisplayName="Rework Needed" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml#3"/>
                 <mui:Link DisplayName="Awaiting Approval" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml#4"/>
-                <mui:Link DisplayName="Completed" Source="/Pages/WorkOrders/WorkOrdersPendingReceipt.xaml#5" />
+                <mui:Link DisplayName="Completed" Source="/Pages/WorkOrders/Completed/CompletedWorkOrders.xaml#5" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>

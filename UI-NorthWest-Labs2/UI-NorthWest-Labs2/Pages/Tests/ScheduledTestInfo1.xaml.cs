@@ -13,16 +13,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using UI_NorthWest_Labs2.Pages.Tests.Confirmations;
-using UI_NorthWest_Labs2.Pages.Tests.Schedule;
 
 namespace UI_NorthWest_Labs2.Pages.Tests
 {
     /// <summary>
     /// Interaction logic for TestInfo.xaml
     /// </summary>
-    public partial class PendingTestInfo1 : UserControl
+    public partial class ScheduledTestInfo1 : UserControl
     {
-        public PendingTestInfo1()
+        public ScheduledTestInfo1()
         {
             InitializeComponent();
         }
@@ -32,13 +31,6 @@ namespace UI_NorthWest_Labs2.Pages.Tests
             CompleteTest c = new CompleteTest();
             c.ShowDialog();
             NavigationCommands.GoToPage.Execute("/Pages/Tests/CompletedTestInfo1.xaml", this);
-        }
-
-        private void Schedule_Button_Click(object sender, RoutedEventArgs e)
-        {
-            ScheduleTestDialog d = new ScheduleTestDialog();
-            d.ShowDialog();
-            NavigationCommands.GoToPage.Execute("/Pages/Tests/ScheduledTestInfo1.xaml", this);
         }
     }
 }

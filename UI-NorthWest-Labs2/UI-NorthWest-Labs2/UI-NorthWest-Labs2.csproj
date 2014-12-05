@@ -298,6 +298,9 @@
     <Compile Include="Pages\Tests\Confirmations\CompleteTest.xaml.cs">
       <DependentUpon>CompleteTest.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Tests\ScheduledTestInfo1.xaml.cs">
+      <DependentUpon>ScheduledTestInfo1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Tests\PendingTestInfo1.xaml.cs">
       <DependentUpon>PendingTestInfo1.xaml</DependentUpon>
     </Compile>
@@ -324,6 +327,21 @@
     </Compile>
     <Compile Include="Pages\WorkOrders\AddOptionalInfo.xaml.cs">
       <DependentUpon>AddOptionalInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WorkOrders\Completed\CompletedWorkOrders.xaml.cs">
+      <DependentUpon>CompletedWorkOrders.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WorkOrders\Completed\WorkOrder1Uploaded.xaml.cs">
+      <DependentUpon>WorkOrder1Uploaded.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WorkOrders\Completed\WorkOrder1.xaml.cs">
+      <DependentUpon>WorkOrder1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WorkOrders\Completed\WorkOrderCompletedUploadedPreview1.xaml.cs">
+      <DependentUpon>WorkOrderCompletedUploadedPreview1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\WorkOrders\Completed\WorkOrderCompletedPreview1.xaml.cs">
+      <DependentUpon>WorkOrderCompletedPreview1.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\WorkOrders\Confirmations\SendRequestConfirm.xaml.cs">
       <DependentUpon>SendRequestConfirm.xaml</DependentUpon>
@@ -376,6 +394,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Tests\ScheduledTestInfo1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pages\Tests\PendingTestInfo1.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -411,6 +433,26 @@
     <Page Include="Pages\WorkOrders\AddOptionalInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WorkOrders\Completed\CompletedWorkOrders.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\WorkOrders\Completed\WorkOrder1Uploaded.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\WorkOrders\Completed\WorkOrder1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\WorkOrders\Completed\WorkOrderCompletedUploadedPreview1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\WorkOrders\Completed\WorkOrderCompletedPreview1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\WorkOrders\Confirmations\SendRequestConfirm.xaml">
       <SubType>Designer</SubType>

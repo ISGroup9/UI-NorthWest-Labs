@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="UI_NorthWest_Labs2.Pages.WorkOrders.WorkOrderPendingPreview1"
+﻿<UserControl x:Class="UI_NorthWest_Labs2.Pages.WorkOrders.Completed.WorkOrderCompletedUploadedPreview1"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -21,11 +21,10 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto" MinHeight="16"/>
                 <RowDefinition Height="Auto" MinHeight="16"/>
-                <RowDefinition Height="80"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Work Order #4009 - Pending Receipt" Style="{StaticResource Heading2}" Grid.ColumnSpan="2" />
+            <TextBlock Text="Work Order #4050 - Complete" Style="{StaticResource Heading2}" Grid.ColumnSpan="2" />
             <TextBlock Text="Seattle Pharmaceuticals, Inc." Grid.Row="1" Grid.Column="1" Margin="10,0,0,0" />
             <TextBlock Text="93 S Jackson St #315 Seattle, WA 98104-2818" Grid.Row="3" Grid.Column="1" Margin="10,0,0,0" />
 
@@ -36,17 +35,13 @@
             <TextBlock Text="Phone:" Grid.Row="4" />
             <TextBlock Text="801-465-0426" Grid.Row="4" Grid.Column="1" Margin="10,0,0,0" />
             <TextBlock Text="Sale Date:" Grid.Row="5" />
-            <TextBlock Text="November 1, 2014" Grid.Row="5" Grid.Column="1" Margin="10,0,0,0" />
+            <TextBlock Text="November 4, 2014" Grid.Row="5" Grid.Column="1" Margin="10,0,0,0" />
             <TextBlock Text="Due Date:" Grid.Row="6" />
             <TextBlock Text="November 30, 2014" Grid.Row="6" Grid.Column="1" Margin="10,0,0,0" />
             <TextBlock Text="30906" Grid.Row="2" Grid.Column="1" Margin="10,0,0,0" />
             <TextBlock Text="Customer #:" Grid.Row="2" />
-            <StackPanel Grid.Row="7" Grid.ColumnSpan="2" Margin="0,40,0,0">
-                <TextBlock Text="Test #1 (PharmaScreen)"  Grid.ColumnSpan="2"  />
-                <TextBlock Text="Test #2 (DiscoverScreen)"  Grid.ColumnSpan="2" />
-            </StackPanel>
-            <Button x:Name="View_Work_Order" Content="View" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="8" VerticalAlignment="Top" Width="75" Click="View_Work_Order_Click"/>
-            <Button x:Name="BeginBtn" Content="Receive" HorizontalAlignment="Left" Margin="80,10,0,0" Grid.Row="8" VerticalAlignment="Top" Width="93" Click="Begin_Click" Grid.ColumnSpan="2"/>
+            <Button x:Name="View_Work_Order" Content="View" HorizontalAlignment="Left" Margin="0,41,0,0" Grid.Row="7" VerticalAlignment="Top" Width="75" Click="View_Work_Order_Click"/>
+            <Button Content="Download Summary Report" HorizontalAlignment="Left" Margin="0,0,0,103" Grid.Row="7" VerticalAlignment="Bottom" Width="194" Grid.ColumnSpan="2"/>
         </Grid>
 
 
