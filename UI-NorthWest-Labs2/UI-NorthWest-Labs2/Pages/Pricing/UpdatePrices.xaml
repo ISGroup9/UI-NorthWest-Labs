@@ -8,7 +8,7 @@
              d:DesignHeight="300" d:DesignWidth="500">
     <Grid Style="{StaticResource ContentRoot}">
         <!-- TODO: set @SelectedSource -->
-        <mui:ModernTab SelectedSource ="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml#1" Layout="List" Margin="0,0,-10,0" ListWidth="auto">
+        <mui:ModernTab SelectedSource ="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml?1" Layout="List" Margin="0,0,-10,0" ListWidth="auto">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
                 <mui:Link DisplayName="Biochemical Pharmacology (BP)" Source="/Pages/Pricing/UpdatePricing/UpdatePricing.xaml?1"/>
