@@ -160,7 +160,7 @@
         <mui:LinkGroup DisplayName="pricing">
             <mui:LinkGroup.Links>
                 <mui:Link DisplayName="Update Prices" Source="/Pages/Pricing/UpdatePrices.xaml"/>
-                <mui:Link DisplayName="Reports" Source="/Pages/Pricing/ProfitabilityReports.xaml"/>
+                <mui:Link DisplayName="Profitability Report" Source="/Pages/Pricing/Report/ProfReport.xaml"/>
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         
