@@ -35,7 +35,6 @@
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
                         <RowDefinition Height="20"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
@@ -56,61 +55,59 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="0*"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Text="Scheduled For:" Grid.Column="0" Grid.Row="0"/>
-                    <TextBlock Text="November 10, 2015 3:00 AM" Grid.Column="1" Grid.Row="0" Margin="10,0,0,0"/>
-                    <TextBlock  TextWrapping="Wrap" Text="Price:" VerticalAlignment="Top" Grid.Row="1" />
-                    <TextBlock Text="$392.55" Grid.Column="1" Grid.Row="1" Margin="10,0,0,0"/>
-                    <TextBlock  Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="Customer:" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
-                    <TextBlock HorizontalAlignment="Left" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" Text="Seattle Pharmaceuticals, Inc." VerticalAlignment="Top" Width="472" Margin="10,0,-193,0"/>
+                    <TextBlock  TextWrapping="Wrap" Text="Price:" VerticalAlignment="Top" Grid.Row="0" />
+                    <TextBlock Text="$392.55" Grid.Column="1" Grid.Row="0" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="Customer:" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
+                    <TextBlock HorizontalAlignment="Left" Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" Text="Seattle Pharmaceuticals, Inc." VerticalAlignment="Top" Width="472" Margin="10,0,-193,0"/>
 
-                    <TextBlock  Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Text="Customer #:" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" Text="306098" VerticalAlignment="Center"  HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="Customer #:" VerticalAlignment="Center"  HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" Text="306098" VerticalAlignment="Center"  HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
 
-                    <TextBlock  Grid.Row="5" Grid.Column="0" TextWrapping="Wrap" Text="Contact:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="5" Grid.Column="1" TextWrapping="Wrap" Text="Jeremy Stewart" VerticalAlignment="Center"  HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="4" Grid.Column="0" TextWrapping="Wrap" Text="Contact:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" Text="Jeremy Stewart" VerticalAlignment="Center"  HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
-                    <TextBlock  Grid.Row="6" Grid.Column="0" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="6" Grid.Column="1" TextWrapping="Wrap" Text="93 S Jackson St #315 Seattle, WA 98104-2818" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="5" Grid.Column="0" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="5" Grid.Column="1" TextWrapping="Wrap" Text="93 S Jackson St #315 Seattle, WA 98104-2818" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
-                    <TextBlock  Grid.Row="7" Grid.Column="0" TextWrapping="Wrap" Text="Phone:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="7" Grid.Column="1" TextWrapping="Wrap" Text="801-465-0426" VerticalAlignment="Center"  HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="6" Grid.Column="0" TextWrapping="Wrap" Text="Phone:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="6" Grid.Column="1" TextWrapping="Wrap" Text="801-465-0426" VerticalAlignment="Center"  HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
-                    <TextBlock  Grid.Row="8" Grid.Column="0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="8" Grid.Column="1" TextWrapping="Wrap" Text="support@dynalabs.com" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="7" Grid.Column="0" TextWrapping="Wrap" Text="Email:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="7" Grid.Column="1" TextWrapping="Wrap" Text="support@dynalabs.com" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
-                    <TextBlock  Grid.Row="9" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="9" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="8" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="8" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
-                    <TextBlock  Grid.Row="10" Grid.Column="0" TextWrapping="Wrap" Text="Sale Date" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="10" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" Text="November 1,2014"/>
+                    <TextBlock  Grid.Row="9" Grid.Column="0" TextWrapping="Wrap" Text="Sale Date" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="9" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" Text="November 1,2014"/>
 
-                    <TextBlock  Grid.Row="11" Grid.Column="0" TextWrapping="Wrap" Text="Due Date:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="11" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" Text="November 30, 2014"/>
+                    <TextBlock  Grid.Row="10" Grid.Column="0" TextWrapping="Wrap" Text="Due Date:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="10" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" Text="November 30, 2014"/>
 
-                    <TextBlock  Grid.Row="12" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="12" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="11" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="11" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
-                    <TextBlock  Grid.Row="13" Grid.Column="0" TextWrapping="Wrap" Text="Compound Code:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="13" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,0" Text="SEA309"/>
+                    <TextBlock  Grid.Row="12" Grid.Column="0" TextWrapping="Wrap" Text="Compound Code:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="12" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10,0,0,0" Text="SEA309"/>
 
-                    <TextBlock  Grid.Row="14" Grid.Column="0" TextWrapping="Wrap" Text="Weight:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="14" Grid.Column="1" TextWrapping="Wrap" Text="22.0954" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="13" Grid.Column="0" TextWrapping="Wrap" Text="Weight:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="13" Grid.Column="1" TextWrapping="Wrap" Text="22.0954" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
-                    <TextBlock  Grid.Row="15" Grid.Column="0" TextWrapping="Wrap" Text="Molecular Weight:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="15" Grid.Column="1" TextWrapping="Wrap" Text="57.3485" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="14" Grid.Column="0" TextWrapping="Wrap" Text="Molecular Weight:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="14" Grid.Column="1" TextWrapping="Wrap" Text="57.3485" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
-                    <TextBlock  Grid.Row="16" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="16" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="15" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="15" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
-                    <TextBlock  Grid.Row="17" Grid.Column="0" TextWrapping="Wrap" Text="Sales Representative:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="17" Grid.Column="1" TextWrapping="Wrap" Text="Chris Penelton" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="9.8,0,0,15.6" Grid.RowSpan="2"/>
+                    <TextBlock  Grid.Row="16" Grid.Column="0" TextWrapping="Wrap" Text="Sales Representative:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="16" Grid.Column="1" TextWrapping="Wrap" Text="Chris Penelton" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="9.8,0,0,15.6" Grid.RowSpan="2"/>
 
-                    <TextBlock  Grid.Row="18" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="18" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="17" Grid.Column="0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="17" Grid.Column="1" TextWrapping="Wrap" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
-                    <TextBlock  Grid.Row="19" Grid.Column="0" TextWrapping="Wrap" Text="Work Order#:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
-                    <TextBlock  Grid.Row="19" Grid.Column="1" TextWrapping="Wrap" Text="49046" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                    <TextBlock  Grid.Row="18" Grid.Column="0" TextWrapping="Wrap" Text="Work Order#:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Left"/>
+                    <TextBlock  Grid.Row="18" Grid.Column="1" TextWrapping="Wrap" Text="49046" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
 
                 </Grid>
 

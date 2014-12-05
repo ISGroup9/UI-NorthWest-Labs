@@ -350,7 +350,7 @@
                     </ListBoxItem>
                 </ListBox>
             </Grid>
-        <Separator Background="{Binding AccentColor}"/>
+        
         <Grid  Style="{StaticResource ContentRoot}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
