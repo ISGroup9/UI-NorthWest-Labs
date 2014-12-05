@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using UI_NorthWest_Labs2.Pages.Catalogs.Confirmation;
 
 namespace UI_NorthWest_Labs2.Pages.WorkOrders.Completed
 {
@@ -41,6 +43,20 @@ namespace UI_NorthWest_Labs2.Pages.WorkOrders.Completed
 
             //open the pdf :)
             System.Diagnostics.Process.Start(filepath + fullname);
+        }
+
+        private void Download_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog1 = new Microsoft.Win32.OpenFileDialog();
+            openFileDialog1.Filter = "PDF files (*.PDF)|*.txt|All files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 2;
+            string filepath = AppDomain.CurrentDomain.BaseDirectory;
+            filepath = filepath.Remove(filepath.Length - 10);
+            openFileDialog1.InitialDirectory = filepath + "PDF";
+            openFileDialog1.ShowDialog();
+
+            FileUploaded f = new FileUploaded();
+            f.ShowDialog();
         }
     }
 }
