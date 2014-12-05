@@ -45,6 +45,20 @@ namespace UI_NorthWest_Labs2.Pages.WorkOrders.Completed
 
         private void Upload_Click(object sender, RoutedEventArgs e)
         {
+            //set pdf name here
+            string pdfname = "SummaryReport";
+
+            //add PDF folder and .pdf to filename
+            string fullname = "\\PDF\\" + pdfname + ".pdf";
+
+            //find the full filepath
+            string filepath = AppDomain.CurrentDomain.BaseDirectory;
+
+            //remove 'bin' and 'debug' folder
+            filepath = filepath.Remove(filepath.Length - 10);
+
+            //open the pdf :)
+            System.Diagnostics.Process.Start(filepath + fullname);
             NavigationCommands.GoToPage.Execute("/Pages/WorkOrders/Completed/WorkOrder1Uploaded.xaml", this);
         }
     }
