@@ -19,7 +19,11 @@ using UI_NorthWest_Labs2.Pages.LoginDialog;
 namespace UI_NorthWest_Labs2
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Updated Dec. 5, 2014
+    /// The following is a UI design for Northwest Labs LLC. This software will allow the user to 
+    /// maintain customer, work order, sales, pricing, and catalog information
+    /// The system will work with the server's active directory for employee login information
+    /// The system can be used by workers, management, sales representative, and finance for various use cases.
     /// </summary>
     public partial class MainWindow : ModernWindow
     {
