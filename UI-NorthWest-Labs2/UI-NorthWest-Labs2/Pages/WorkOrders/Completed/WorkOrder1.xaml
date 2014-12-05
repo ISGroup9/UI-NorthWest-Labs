@@ -47,8 +47,8 @@
         <TextBlock Text="November 30, 2014" Grid.Row="6" Grid.Column="1" Margin="10,0,0,0" />
         <TextBlock Text="30906" Grid.Row="2" Grid.Column="1" Margin="10,0,0,0" />
         <TextBlock Text="Customer #:" Grid.Row="2" />
-        <Button x:Name="Upload"  Command="NavigationCommands.GoToPage" CommandParameter="/Pages/WorkOrders/AdditionalTest/AdditionalTests.xaml" Content="Upload Summary Report" HorizontalAlignment="Left" Margin="0,10" Grid.Row="9" VerticalAlignment="Bottom" Width="194" Grid.ColumnSpan="2" Click="Upload_Click"/>
-        <Button x:Name="CreateBtn" Content="Generate Report" Grid.Row="8" Grid.ColumnSpan="2" Margin="0,10,0,0"  VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="140"/>
+        <Button x:Name="Upload"  Content="Upload Summary Report" HorizontalAlignment="Left" Margin="0,10" Grid.Row="9" VerticalAlignment="Bottom" Width="194" Grid.ColumnSpan="2" Click="Upload_Click"/>
+        <Button x:Name="CreateBtn" Content="Generate Report" Grid.Row="8" Grid.ColumnSpan="2" Margin="0,10,0,0"  VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="140" Click="CreateBtn_Click"/>
 
     </Grid>
 </UserControl>
