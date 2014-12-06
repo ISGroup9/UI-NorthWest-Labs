@@ -12,13 +12,53 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="27"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto" MinHeight="165"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
             <TextBlock Text="Test #1 (Pharmascreen) - Complete" Style="{StaticResource Heading2}" />
-            <Button Content="Generate Report" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="137" Height="26" Click="Button_Click"/>
-            <TextBlock  TextWrapping="Wrap" Text="Price:&#x9;$392.55" VerticalAlignment="Top" Grid.Row="1" />
-          
+            <Button Content="Generate Report" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Top" Width="137" Height="26" Click="Button_Click"/>
+            <TextBlock  TextWrapping="Wrap" Text="Price:&#x9;$392.55" VerticalAlignment="Top" Grid.Row="1" Height="16" />
+            <TextBlock Grid.Row="3" Text="Test Results Report" Style="{StaticResource Heading2}"/>
+            <StackPanel Grid.Row="4">
+                <TextBlock Text="Customize Report:"/>
+                <CheckBox IsChecked="True" >
+                    Test Type
+
+                </CheckBox>
+                <CheckBox IsChecked="True" >
+                    Compound Name
+
+                </CheckBox>
+                <CheckBox IsChecked="True" >
+                    Molecular Weight
+
+                </CheckBox>
+                <CheckBox IsChecked="True" >
+                    Amount Tested
+
+                </CheckBox>
+                <CheckBox IsChecked="True" >
+                    pH Level
+
+                </CheckBox>
+                <CheckBox IsChecked="True" >
+                    Level of Activity
+
+                </CheckBox>
+                <CheckBox IsChecked="True" >
+                    Side Effects
+
+                </CheckBox>
+                <CheckBox IsChecked="True" >
+                    Historical Compound Data
+
+                </CheckBox>
+
+            </StackPanel>
+
         </Grid>
     </ScrollViewer>
 
