@@ -8,10 +8,12 @@
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
         <!-- TODO: set @SelectedSource -->
-        <mui:ModernTab SelectedSource="/Pages/Pricing/Report/ProfReport.xaml" Layout="List">
+        <mui:ModernTab SelectedSource="/Pages/Pricing/Report/ProfReport.xaml#1" Layout="List">
             <mui:ModernTab.Links>
                 <!-- TODO: set @Source -->
-                <mui:Link DisplayName="Profitability Report" Source="/Pages/Pricing/Report/ProfReport.xaml"/>
+                <mui:Link DisplayName="By Customer" Source="/Pages/Pricing/Report/ProfReport.xaml#1"/>
+                <mui:Link DisplayName="By Sales Agent" Source="/Pages/Pricing/Report/ByAgent.xaml?2"/>
+                <mui:Link DisplayName="By Assay" Source="/Pages/Pricing/Report/ByAgent.xaml?3"/>
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>

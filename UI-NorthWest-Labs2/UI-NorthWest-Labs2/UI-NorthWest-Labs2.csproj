@@ -144,6 +144,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Pricing\Report\ByAgent.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Pages\Pricing\Report\ProfReport.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -228,6 +232,9 @@
     </Compile>
     <Compile Include="Pages\LoginDialog\LoginDialog.xaml.cs">
       <DependentUpon>LoginDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pricing\Report\ByAgent.xaml.cs">
+      <DependentUpon>ByAgent.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Pricing\Report\ProfReport.xaml.cs">
       <DependentUpon>ProfReport.xaml</DependentUpon>
