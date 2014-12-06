@@ -26,17 +26,28 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <TextBlock HorizontalAlignment="Left" Style ="{StaticResource Heading2}" TextWrapping="Wrap" Text="Generate Profitability Report" VerticalAlignment="Top" Grid.ColumnSpan="2" Margin="0,-1,-0.4,0" Width="482"/>
 
-            <DatePicker SelectedDate="1/1/2014" SelectedDateFormat="Short" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Margin="10,4,0,4" VerticalAlignment="Center"/>
-            <TextBlock  Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="Start Date:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
+            <TextBlock  Grid.Row="1" Grid.Column="0" TextWrapping="Wrap" Text="Customer:" VerticalAlignment="Center" Margin="10,4,0,4" HorizontalAlignment="Right"/>
+            <ComboBox x:Name="cbState" Grid.Row="1" Grid.Column="1" SelectedIndex="0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Margin="10,4,0,4" Width="150">
+                <ComboBoxItem Content="DYNALABS LLC." HorizontalAlignment="Left" Width="140"/>
+                <ComboBoxItem Content="Kona Medical" HorizontalAlignment="Left" Width="140"/>
+                <ComboBoxItem Content="OncoGenex" HorizontalAlignment="Left" Width="140"/>
+                <ComboBoxItem Content="Seahorse Bio" HorizontalAlignment="Left" Width="140"/>
+                <ComboBoxItem Content="EndoGastric Solutions" HorizontalAlignment="Left" Width="140"/>
+            </ComboBox>
 
-            <DatePicker SelectedDate="12/1/2014" SelectedDateFormat="Short" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="10,4,0,4" VerticalAlignment="Center"/>
-            <TextBlock  Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="End Date:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
 
-            <Button x:Name="CreateBtn" Content="Generate" Grid.Row="11" Grid.Column="1" Margin="10,4,0,4" HorizontalAlignment="Left" VerticalAlignment="Center" Width="auto" Click="CreateBtn_Click"/>
+            <DatePicker SelectedDate="1/1/2014" SelectedDateFormat="Short" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="10,4,0,4" VerticalAlignment="Center"/>
+            <TextBlock  Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" Text="Start Date:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
+
+            <DatePicker SelectedDate="12/1/2014" SelectedDateFormat="Short" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Margin="10,4,0,4" VerticalAlignment="Center"/>
+            <TextBlock  Grid.Row="3" Grid.Column="0" TextWrapping="Wrap" Text="End Date:" VerticalAlignment="Center" Margin="0" HorizontalAlignment="Right"/>
+
+            <Button x:Name="CreateBtn" Content="Generate" Grid.Row="12" Grid.Column="1" Margin="10,4,0,4" HorizontalAlignment="Left" VerticalAlignment="Center" Width="auto" Click="CreateBtn_Click"/>
 
 
         </Grid>
